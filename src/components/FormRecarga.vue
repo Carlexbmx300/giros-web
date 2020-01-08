@@ -2,7 +2,7 @@
 
 <template>
 
- <!-- <div class="step active" id="step-1">
+ <!-- <div class="step active" id="step-1"> mas cments
     <div class="tittle">
             <mdb-row>
             <mdb-col col="9">      
