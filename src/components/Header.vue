@@ -17,6 +17,7 @@
          <mdb-nav-item href="#"> <img src="images/iconoMenu1.png" class="icono" alt=""> Recarga tu Telefono</mdb-nav-item>
           <mdb-nav-item href="#" class="linea"><img src="images/iconoMenu2.png" class="icono2" alt="">Registrarse</mdb-nav-item>
            <mdb-nav-item href="#" class="linea"><img src="images/iconoMenu3.png" class="icono3" alt="">Iniciar Sesion</mdb-nav-item>
+           <!--anadido comentario-->
        </div>
           
       </mdb-navbar-nav>
