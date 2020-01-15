@@ -432,10 +432,37 @@ text-align: justify;
     color: #FFBD24;
     width: 50%;
     text-align: left;
+   font-size: 2.6vw;
 }
 .cc1 h5{
     width: 46%;
     text-align: left;
     color: white;
     margin-left: 43%;
+    font-size: 1.5vw;
+}
+
+.cc1 button{
+  margin-left: 22%;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFBD24;
+    font-size: 25px;
+    transition: all ease .4s;
+    margin-bottom: 10%;
+}
+
+.cc1 button:hover{
+    transform: scale(1.1);
+    transition: all ease .4s;
+}
+
+.cc1 .imagenes img{
+    width: 8%;
+    margin-right: 8%;
+}
+.cc1 .agente h5{
+    color: #2468FF;
 }
