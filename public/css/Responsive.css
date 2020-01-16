@@ -1,4 +1,4 @@
-/*@media(max-width:500px){
+@media(max-width:500px){
     #step3 .contenido{
         margin-top: 20%;
     }
@@ -9,5 +9,42 @@
     #step3 h6{
         font-size: 2vw;
     }
-    
+    .top{
+        
+        background-position: center top;
+        height: auto;
+    }
+    .top p{
+        font-size: 13.5px;
+    }
+    .message7 .m1{
+        font-size: 10px;
+        margin-top: -70px;
+    }
+    .input7{
+        font-size: 8px;
+    }
+    .mid7{
+        height: 200px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {  
+    #step3{
+        height: auto;
+    }
+    .message7 .m1{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {  
+
+    #step3{
+        height: auto;
+    }
+    .top{
+        height: 550px;
+    }
+
 }
