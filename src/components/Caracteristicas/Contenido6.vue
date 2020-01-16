@@ -1,14 +1,14 @@
 <template>
     <div class="mid7">
         <div class="contenido7">
-            <div class="titulo7">
+            <div class="titulo7 d-none d-xl-block">
                 <h1>¿Necesitas <span>AYUDA?</span></h1>
             </div>
-            <div class="message7">
+            <div class="message7  mt-xl-5 mt-lg-n5 mt-md-n5 mt-sm-n5 mt-n5">
                 <p class="m1">Nuestro equipo esta dispuesto a brindarte la mejor asesoria</p>
-                <p class="m2">O ingresa a nuestro chat en la parte inferior</p>
+                <p class="m2 d-none d-md-block">O ingresa a nuestro chat en la parte inferior</p>
             </div>
-            <div class="input7">
+            <div class="input7 mt-xl-5 mt-lg-n5 mt-md-n5 mt-sm-n5 mt-n5">
                 <mdb-row>
                     <mdb-col>
                         <mdb-input label="Nombre" size="sm" />
@@ -44,4 +44,5 @@
         mdbInput
     }
   }
+</script>
 </script>

@@ -10,7 +10,7 @@
                 cantidad de deducibles que otras plataformas
             </p>
         </div>
-        <div class="images6 mt-n2">
+        <div class="images6 mt-n2 d-none d-sm-block">
             <mdb-container>
                 <mdb-row>
                    <mdb-col xl="3" md="3" col="3">
@@ -40,7 +40,7 @@
              
              
         </div>
-        <div class="boton">
+        <div class="boton mt-xl-5 mt-md-5 mt-sm-1">
             <button>¡Quiero hacer un <span>GIRO HOY!</span></button>
         </div>
         </div>

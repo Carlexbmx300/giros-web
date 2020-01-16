@@ -16,7 +16,7 @@
                         <img  class="mb-xl-5" src="images/moneda2.png" alt="">
                 </mdb-col>
                 <mdb-col xl="9">  
-                    <h5 class="text-xl-left text-lg-center text-md-center text-sm-centermt-xl-5">Nuestro servicio de giros los fines de semana</h5> 
+                    <h5 class="text-xl-left text-lg-center text-md-center text-sm-center mt-xl-5">Nuestro servicio de giros los fines de semana</h5> 
                       <p class=" text-xl-left text-lg-center text-md-center text-sm-center">Envía dinero a los principales puntos de pago en ventanilla y a los bancos de Colombia, como Éxito y Bancolombia. Haz depósitos bancarios a todos los bancos, incluidos Bancolombia y DAVIVIENDA.</p>
                 </mdb-col>
             </mdb-row>
