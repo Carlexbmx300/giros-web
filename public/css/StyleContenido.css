@@ -466,3 +466,30 @@ text-align: justify;
 .cc1 .agente h5{
     color: #2468FF;
 }
+.titulocc2{
+    color:#2468FF;
+}
+
+.cc3{
+    background-image: url("../images/FondoC2.png");
+    height: 990px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cc3 img{
+
+    width: 80%;
+    
+
+    
+}
+.imagencc3{
+    margin-top: 10%;
+}
+
+.cc3 h5{
+    color: #FFBD24;
+}
+.cc3 p{
+    color: white;
+}
