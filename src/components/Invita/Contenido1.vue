@@ -27,9 +27,12 @@
                 </mdb-col>
             </mdb-row>
             <mdb-row>
-            
-           
-
+            <mdb-col xl="12">
+            <div class="button mt-xl-5">
+            <img src="images/tituo1.png" alt="">
+            <img src="images/titulo2.png" alt="">
+            </div>
+            </mdb-col>  
             </mdb-row>
         </mdb-container>
     </div>

@@ -498,7 +498,152 @@ text-align: justify;
 }
 
 .ci1 h5{
-    margin-top: 20%;
+    margin-top: 30%;
     color: #FFBD24;
   
+}
+
+.ci1 .button{
+    margin-left: 30%;
+}
+.ci1 .button img{
+    width:20%;
+    height: 10%;
+    margin-right: 20px;
+   
+    transition: all ease 0.4s;
+}
+
+.ci1 .button img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease 0.4s;
+}
+
+.ci2 img{
+    width: 50px;
+    margin-top: 30%;
+
+}
+
+.ci3{
+    background-color: #EEEEEE;
+    height: auto;
+}
+.ci3 .ico{
+    width: 50px;
+}
+.ci3 button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #FFBD24;
+    border-radius: 5px;
+   
+    outline: none;
+    transition: all ease .4s;
+}
+.ci3 button:hover{
+    transform: scale(1.1);
+    transition: all ease .4s;
+}
+
+.ci3 .silueta{
+  width: 80%;
+}
+
+.ci4 img{
+    width: 100px;
+}
+.ci4{
+    margin-top: 10%;
+}
+
+.ci5{
+    background-color: #EEEEEE;
+    height: auto;
+}
+.ci5 img{
+    width: 70%;
+}
+.ci5 button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #FFBD24;
+    border-radius: 5px;
+   
+    outline: none;
+    transition: all ease .4s;
+}
+.ci5 button:hover{
+    transform: scale(1.1);
+    transition: all ease .4s;
+}
+.ci7{
+    background-color: #F9A600;
+    height: auto;
+}
+
+.ci7 img{
+    width: 100%;
+}
+
+.ci7 .logo{
+    background-color: white;
+    border-radius: 200px;
+    width: 130px;
+    height: 130px;
+}
+
+.ci7 .logo1{
+    width: 100px;
+}
+.ci7 .logo2{
+    width: 110px;
+}
+.ci7 .logo3{
+    width: 100px;
+    margin-right: 10px;
+}
+.ci7 .logo4{
+    width: 110px;
+}
+.ci7 button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFBD24;
+
+    transition: all ease .4s;
+}
+
+.ci7 button:hover{
+    transition: all ease .4s;
+    transform: scale(1.1);
+}
+
+.ci8{
+    background-color: #0847CC;
+    height: auto;
+}
+
+.ci8 h1,h5{
+    color: white;
+}
+
+.ci8 span{
+    font-size: 80px;
+}
+.ci8 h4{
+    color: #F9A600;
+}
+
+.ci8 .input7 p{
+    font-size: 15px;
+}
+
+.ci8  button{
+    font-size: 15px;
 }
