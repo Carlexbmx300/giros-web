@@ -1,4 +1,4 @@
-<template>
+<template>Prueba de cambio
     <div class="mid6">
         <div class="contenido6">
         <div class="titulo6 mt-n5">
@@ -6,7 +6,7 @@
         </div>
         <div class="message6 mt-n4">
             <p>
-                El cobro mas economico del mercado, su giro tiene la menos 
+                El cobro mas economico del mercado, su giro tiene la menos
                 cantidad de deducibles que otras plataformas
             </p>
         </div>
@@ -36,9 +36,9 @@
                    </mdb-col>
                 </mdb-row>
             </mdb-container>
-            
-             
-             
+
+
+
         </div>
         <div class="boton mt-xl-5 mt-md-5 mt-sm-1">
             <button>¡Quiero hacer un <span>GIRO HOY!</span></button>
