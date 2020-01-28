@@ -1,4 +1,4 @@
-<template>
+<template>aca de nuevo
     <div class="mid6">
         <div class="contenido6">
         <div class="titulo6 mt-n5">
@@ -57,16 +57,16 @@
       mdbCol,
       mdbBtn,
       mdbSelect,
-      mdbDropdown, 
-      mdbDropdownToggle, 
-      mdbDropdownMenu, 
+      mdbDropdown,
+      mdbDropdownToggle,
+      mdbDropdownMenu,
       mdbDropdownItem,
-        mdbIcon 
+        mdbIcon
     },
     data() {
       return {
         value: ''
-        
+
       };
     }
   }
