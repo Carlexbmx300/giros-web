@@ -1,20 +1,17 @@
-<template>aca de nuevo
-    <div class="mid6">
-        <div class="contenido6">
-        <div class="titulo6 mt-n5">
-            <h1 class="h1-responsive">¡ AHORRAR ES GANAR !</h1>
-        </div>
-        <div class="message6 mt-n4">
-            <p>
-                El cobro mas economico del mercado, su giro tiene la menos
-                cantidad de deducibles que otras plataformas
-            </p>
-        </div>
-        <div class="images6 mt-n2 d-none d-sm-block">
-            <mdb-container>
-                <mdb-row>
-                   <mdb-col xl="3" md="3" col="3">
-                        <div class="logo">
+<template>
+    <div class="ci7">
+        <mdb-container>
+            <mdb-row>
+                <mdb-col class="align-self-end order-xl-0 order-12" xl="6">
+                    <img class="img-fluid" src="images/fondoSilueta4.png" alt="">
+
+                </mdb-col>
+                <mdb-col class="align-self-center mt-5" xl="6">
+                    <h1 class="text-xl-left font-weight-bold mt-5 mb-5">¡AHORRAR ES GANAR!</h1>
+                    <p class="text-xl-left">El cobro mas economico del mercado, su giro tiene la menos cantidad de deducibles que otras plataformas</p>
+                     <mdb-row class="mt-5 mb-5">
+                   <mdb-col xl="3" lg="6" col="6">
+                        <div class="logo mb-5 float-right float-xl-none">
                         <img class="logo1" src="images/MONEY.png" alt="">
                         </div>
                    </mdb-col>
@@ -35,15 +32,12 @@
                         </div>
                    </mdb-col>
                 </mdb-row>
-            </mdb-container>
-
-
-
-        </div>
-        <div class="boton mt-xl-5 mt-md-5 mt-sm-1">
-            <button>¡Quiero hacer un <span>GIRO HOY!</span></button>
-        </div>
-        </div>
+                 <div class="boton mb-5 float-xl-left">
+                <button>¡Quiero hacer un <span>GIRO HOY!</span></button>
+                 </div>
+                </mdb-col>
+            </mdb-row>
+        </mdb-container>
     </div>
 </template>
 <script>
@@ -57,16 +51,16 @@
       mdbCol,
       mdbBtn,
       mdbSelect,
-      mdbDropdown,
-      mdbDropdownToggle,
-      mdbDropdownMenu,
+      mdbDropdown, 
+      mdbDropdownToggle, 
+      mdbDropdownMenu, 
       mdbDropdownItem,
-        mdbIcon
+        mdbIcon 
     },
     data() {
       return {
         value: ''
-
+        
       };
     }
   }

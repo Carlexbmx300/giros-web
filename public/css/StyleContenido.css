@@ -440,12 +440,12 @@ text-align: justify;
 
 .cc1 button{
   margin-left: 22%;
-    width: 400px;
+    width: 250px;
     height: 50px;
     border: none;
     border-radius: 5px;
     background-color: #FFBD24;
-    font-size: 25px;
+    font-size: 18px;
     transition: all ease .4s;
     margin-bottom: 10%;
 }
@@ -453,6 +453,10 @@ text-align: justify;
 .cc1 button:hover{
     transform: scale(1.1);
     transition: all ease .4s;
+}
+
+.cc1 .imagenes{
+    width: 100%;
 }
 
 .cc1 .imagenes img{
@@ -468,9 +472,10 @@ text-align: justify;
 
 .cc3{
     background-image: url("../images/FondoC2.png");
-    height: 990px;
+    height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #2468FF;
 }
 .cc3 img{
 
@@ -654,4 +659,27 @@ text-align: justify;
 
 .ci8  button{
     font-size: 15px;
+}
+
+.cn1{
+    background-image: url("../images/fondoNosotros1.png");
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.cn1 img{
+    width: 100%;
+}
+
+.cn1 h1{
+    color: #F9A600;
+}
+.cn1 h3,h4{
+    color: white;
+}
+
+.cn2 img{
+    width:100px;
+    height: 100px;
 }

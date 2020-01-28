@@ -1,18 +1,20 @@
 <template>
-    <div class="contenido1">
-        <mdb-container >
+    <div class="cn1">
+        <mdb-container fluid>
             <mdb-row>
-                <mdb-col  xl="12">
-                    <h4 class="titulo">¿Porque escoger giros Express?</h4>
-                    <p class="  ">Transferenciasssss internacionales, giros y remesas rápidas, transparentes y hasta 8 veces más económicas que la competencia, en un servicio <span class="font-weight-bold">24/7</span> </p>
-                   <p></p>
+                <mdb-col  xl="6" class="mt-5 ml-n3 order-xl-0 order-12">
+                    <img  class=" mt-3 img-fluid" src="images/fondoSiluetaN1.png" alt="">
+                </mdb-col>
+                <mdb-col class="align-self-center text-xl-left" xl="6">
+                    <h1 >NUESTRA EMPRESA</h1>
+                    <h3>CONOCE LA SOLIDEZ DE NUESTRA COMPAÑIA</h3>
+                    <H4>Respaldo, experiencia y solidez; somos la solución 
+                        eficiente para sus giros y recargas
+                    </H4>
+
                 </mdb-col>
             </mdb-row>
-                <mdb-row class="justify-content-center mb-xl-5">
-                <img class="img-fluid" src="images/fondoSiluetaPC.png" alt="">
-            </mdb-row>
         </mdb-container>
-        
     </div>
 </template>
 <script>

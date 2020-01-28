@@ -202,6 +202,7 @@ font-size: 1.3vw;
     color: white;
     opacity: 0.8;
     font-size: 2vw;
+    width: 250px;
 }
 
 .bg{
@@ -220,7 +221,7 @@ font-size: 1.3vw;
 }
 
 #step3 .contenido{
-width: 65%;
+
 margin-top: 15%;  
 margin-left: 55%;  
 

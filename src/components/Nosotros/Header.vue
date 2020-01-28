@@ -1,4 +1,3 @@
-
 <template>
   <mdb-navbar expand="large" position="top" transparent scrolling>
     <mdb-navbar-brand href="#">
@@ -8,7 +7,7 @@
       <mdb-navbar-nav right>
         <div class="menu navbar-nav">
         <mdb-nav-item href="#">Inicio</mdb-nav-item>
-        <mdb-nav-item class="active" href="/nosotros">Giros Express</mdb-nav-item>
+        <mdb-nav-item href="/nosotros">Giros Express</mdb-nav-item>
         <mdb-nav-item href="/invita">Invita y Gana</mdb-nav-item>
          <mdb-nav-item href="#">Blog</mdb-nav-item>
 
