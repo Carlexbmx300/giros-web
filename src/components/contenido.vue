@@ -1,13 +1,38 @@
 <template>
-<div class="top">
-    <div class="titulo pt-xl-5">
-        <H5>¿Por que escoger giros Express?</H5>
-     </div>
-     <div class="parrafo pb-5">
-     <p>
-         Transferencias internacionales, giros y remesas rapidas, transaparentes
-         y hasta 8 veces mas economicas que la competencia, en un servicio <span>24/7</span>
-     </p>
-     </div>
-</div>
+    <div class="contenido1">
+        <mdb-container fluid>
+            <mdb-row>
+                <mdb-col xl="12">
+                    <h4 class="titulo">¿Porque escoger giros Express?</h4>
+                    <p class="text-xl-center">Transferencias internacionales, giros y remesas rápidas, transparentes y hasta 8 veces más económicas que la competencia, en un servicio <span class="font-weight-bold">24/7</span> </p>
+                </mdb-col>
+            </mdb-row>
+        </mdb-container>
+        
+    </div>
 </template>
+<script>
+  import { mdbInput,mdbContainer, mdbRow, mdbCol,mdbBtn,mdbSelect,mdbDropdown, mdbDropdownToggle, mdbDropdownMenu, mdbDropdownItem, mdbIcon  } from 'mdbvue';
+  export default {
+    name: "Input",
+    components: {
+      mdbInput,
+      mdbContainer,
+      mdbRow,
+      mdbCol,
+      mdbBtn,
+      mdbSelect,
+      mdbDropdown, 
+      mdbDropdownToggle, 
+      mdbDropdownMenu, 
+      mdbDropdownItem,
+        mdbIcon 
+    },
+    data() {
+      return {
+        value: ''
+        
+      };
+    }
+  }
+</script>

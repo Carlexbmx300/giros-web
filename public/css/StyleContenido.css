@@ -629,6 +629,14 @@ text-align: justify;
     height: auto;
 }
 
+.contenido1{
+    background-image: url("../images/fondoHome.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: auto;
+
+}
+
 .ci8 h1,h5{
     color: white;
 }
