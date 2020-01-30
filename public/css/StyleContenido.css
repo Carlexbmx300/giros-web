@@ -699,3 +699,11 @@ text-align: justify;
     background-color: #EEEEEE;
     height: auto;
 }
+
+.cp2 img{
+    width: 100px;
+}
+
+.cp2 h4{
+    color: black;
+}
