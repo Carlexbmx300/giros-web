@@ -1,10 +1,11 @@
 <template>
     <div class="recarga">
         <Header/>
-        <Recargas/>
+
     
        
          <Contenido5/>
+                 <Recargas/>
          <Contenido6/>
          <Contenido7/>
          <Contenido8/>

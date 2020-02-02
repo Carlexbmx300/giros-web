@@ -1,34 +1,45 @@
+
 <template>
-    <mdb-stepper simpleV :steps="verticalStepper" v-model="currentStep" >
-    
-   
-    </mdb-stepper>
+
+  <mdb-accordion :panes="panes" default/>
+
 </template>
 <script>
-  import { mdbStepper,mdbBtn  } from 'mdbvue';
+  import { mdbAccordion } from 'mdbvue';
   export default {
+ 
     components: {
-      mdbStepper,
-      mdbBtn
+    
+      mdbAccordion
     },
     data() {
       return {
-        currentStep: 2,
-        verticalStepper: [
+        panes: [
           {
-            content: 
-              "   <mdb-btn color='primary'>Primary</mdb-btn> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
+            title: 'Collapsible Group Item #1',
+            content: `Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                      Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable.`
+          }, {
+            title: 'Collapsible Group Item #2',
+            content: `Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                      Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable.`
           },
           {
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
-          },
-          {
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente."
+            title: 'Collapsible Group Item #3',
+            content: `Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                      3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                      Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable.`
           }
-        ],
+        ]
       };
     }
-  };
+  }
 </script>
