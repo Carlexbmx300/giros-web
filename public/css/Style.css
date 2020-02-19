@@ -31,6 +31,10 @@ body, html{
     cursor: pointer;
     background: #F9F7F7;
 }
+
+.active{
+    background: #F9F7F7;
+}
 .icono{
     position: absolute;
     

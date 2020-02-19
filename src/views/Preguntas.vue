@@ -13,7 +13,7 @@
 </template>
 <script>
 // @ is an alias to /src
-import Header from '@/components/Nosotros/Header.vue'
+import Header from '@/components/Header.vue'
 import Contenido1 from '@/components/Preguntas/Contenido1.vue'
 import ContenidoPreguntas from '@/components/Preguntas/ContenidoPreguntas.vue'
 

@@ -15,7 +15,7 @@
 </template>
 <script>
 // @ is an alias to /src
-import Header from '@/components/Invita/Header.vue'
+import Header from '@/components/Header.vue'
 import Contenido1 from '@/components/Invita/Contenido1.vue'
 import Contenido2 from '@/components/Invita/Contenido2.vue'
 import Contenido3 from '@/components/Invita/Contenido3.vue'
