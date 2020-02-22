@@ -733,12 +733,12 @@ overflow: hidden;
     margin: 15px 0;
     transition: all ease .4s;
 }
-/*.Dashboard{
+.Dashboard{
     background-image: url("../images/superior0.jpg");
     height: 300px;
     background-repeat: no-repeat;
     background-size: 100%;
-}*/
+}
 
 .MenuDashboard{
  
@@ -848,3 +848,15 @@ overflow: hidden;
 }
 
 
+.open_menu{
+    left: -100%;
+}
+
+.prueba{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.rojo{
+    background-color: red;
+}

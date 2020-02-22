@@ -2,16 +2,21 @@
 <div class="Navbar">
 
     <div class="menubar">
-        <p>Menu</p>
-        <mdb-icon class="menu_bar" icon="bars" />
+        <p  >Menu</p>
+        <button   class="menu_bar" @click="salir= !salir">  <mdb-icon   icon="bars" /></button>
+
+      
     </div>
 
-    <div class="profile">
-        <img src="images/profile.png" alt="">
+    
+  <div class="aside" v-bind:class="{open_menu:salir}">
+    <div class="profile " >
+        <img  src="images/profile.png" alt="">
         <h5>Sara Rendon</h5>
-        <a href="">Actualizar Datos</a>
+        <a href="" >Actualizar Datos</a>
     </div>
-<div class="MenuDashboard">
+   
+<div class="MenuDashboard" >
 
     
     <div class="pestanas ">
@@ -46,19 +51,29 @@
     <img src="images/IconoD8.png" alt="">
     <h5>SOPORTE</h5>
 </div>
-    
+ </div>   
  
 </div>  
+
 </div>  
 </template>
 <script>
   import {mdbContainer, mdbRow, mdbCol, mdbIcon} from 'mdbvue';
   export default {
+  
     components: {
       mdbContainer,
       mdbRow,
       mdbCol,
       mdbIcon
+    },
+    data(){
+        return{
+        
+            
+        salir:false,
+      
+        };
     }
   }
 </script>

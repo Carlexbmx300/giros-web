@@ -96,18 +96,38 @@
         font-size: 10px;
       
     }
+.profile{
+    margin-top: 20px;
+}
+    .aside{
+        width: 80%;
+        position: fixed;
+        left: -100%;
+        margin: 0;
+        transition: all ease .4s;
+        border-right:1px solid grey;
+        box-shadow: none;
+        background-color: white;
+    }
 
     .MenuDashboard{
     
-        height: 100%;
-        position: fixed;
-        left: 0%;
-        margin: 0;
+     
+
+     
+        width: 100%;
+        transition: all ease .4s;
+        border: none;
+        box-shadow: none;
       
     }
+    .pestanas{
+        display: none;
+    }
+    
 
   .menu_bar{
-     padding: 20px;
+    
      color: #FFBD24;
      font-size: 35px;
      margin-right: 20px;
@@ -116,12 +136,32 @@
      right: 0;
      top: 4px;
      text-decoration: none;
+     background: none;
+     border: none;
+     outline: none !important;
+     border: none;
+    
+     
   }
-  .menu_bar:hover{
-      color: cornflowerblue;
 
+  .open_menu{
+      transition: all ease .4s;
+      left: 0;
   }
-  .menu_bar:hover>.MenuDashboard{
-      left: -100%;
-  }
+
+  .menu-items li{
+   
+    list-style: none;
+    text-align: left;
+    padding: 18px 15px;
+   margin-bottom: 10px;
+   width: 90%;
+   margin-left: 5%;
+    border: none ;
+    background-color: #F9F7F7;   
+    color: #1A3F6B;
+    font-size: 15px;
+}
+
+  
 }

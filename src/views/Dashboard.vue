@@ -1,17 +1,17 @@
 <template>
   <div class="Dashboard">
-      <Navbar/>
+      <Dash/>
       
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Admin-Dashboard/Navbar.vue'
+import Dash from '@/components/Admin-Dashboard/Dashboard.vue'
 export default {
   name: 'dashboard',
   components: {
-  Navbar
+  Dash
 
   }
 }
