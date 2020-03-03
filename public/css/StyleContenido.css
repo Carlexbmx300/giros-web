@@ -860,3 +860,159 @@ overflow: hidden;
 .rojo{
     background-color: red;
 }
+.servicios-mid{
+    background-color: white;
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 100%;
+    position: relative;
+}
+.page .pagina{
+    color: #0847CC !important;
+   
+}
+.pagina a{
+    color: #0847CC !important;
+    background-color: none;
+}
+
+.pagina li{
+    background-color:#FFBD24 !important;
+}
+
+
+.servicios-mid .recarga h4{
+    color: #0847CC;
+}
+.servicios-mid .recarga{
+ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 90%;
+    margin-left: 5%;
+}
+.btn-detalle{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: solid  #4285f4 1.5px;
+    transition: all ease .4s;
+}
+.btn-detalle:hover{
+    transform: scale(1.1);
+    transition: all ease .4s;
+}
+
+.servicios-mid .giro-enviado{
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 90%;
+    margin-left: 5%;
+}
+.servicios-mid .giro-enviado h4{
+    color: #0847CC;
+}
+
+.servicios-mid .textbox{
+    position: relative;
+    width: 210px;
+    height: 50px;
+    border: #4285f4 solid 1px;
+    border-radius: 7px;
+}
+
+.textbox label{
+    position: absolute;
+    font-size: 13px;
+    top: -10px;
+    background-color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+    left: 15px;
+    color: #0847CC;
+
+}
+.resumen{
+    height: 80px !important;
+}
+ .resumen p{
+    font-size: 10px;
+}
+.pagado{
+    height: 80px !important;
+}
+.pagado p {
+    font-size: 30px;
+    color: #2468FF;
+}
+.pagado span{
+    font-size: 20px;
+}
+
+.giro-recibido{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 90%;
+    margin-left: 5%;
+}
+
+.giro-recibido h4{
+    color: #0847CC;
+}
+.servicios-mid img{
+    width: 30px;
+    height: 30px;
+}
+
+.cel{
+    height: 40px !important;
+}
+
+.servicios .titulo img{
+    width: 40px;
+    height: 40px;
+}
+.servicios .titulo h5{
+    color: #FFBD24;
+}
+
+.serv-card{
+    width: 240px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: #F5F5F5;
+}
+
+.serv-card img{
+    width: 40px;
+    height: 40px;
+}
+.serv-card p{
+    color: #4285f4;
+    font-size: 15px;
+}
+
+.serv-card .contenido{
+    font-size: 12px;
+    color: black;
+}
+.btn-rec{
+    width: 180px;
+    background-color: #FFBD24;
+    border-radius: 15px;
+    
+}
+.btn-rec h4{
+    color: #1A3F6B;
+    font-size: 20px;
+}
+.gir{
+    width: 220px;
+}

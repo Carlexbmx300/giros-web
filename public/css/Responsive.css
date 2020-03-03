@@ -108,6 +108,10 @@
         border-right:1px solid grey;
         box-shadow: none;
         background-color: white;
+        overflow:hidden; 
+        z-index:10;
+
+        
     }
 
     .MenuDashboard{
@@ -133,7 +137,7 @@
      margin-right: 20px;
      float: right;
      position: absolute;
-     right: 0;
+     right: -6px;
      top: 4px;
      text-decoration: none;
      background: none;
@@ -162,6 +166,14 @@
     color: #1A3F6B;
     font-size: 15px;
 }
+.servicios{
+   
+  z-index: 1;
+}
+.btn-rec img{
+    width: 30px !important;
+ 
+}
 
-  
+
 }
