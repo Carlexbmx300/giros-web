@@ -733,10 +733,15 @@ overflow: hidden;
     margin: 15px 0;
     transition: all ease .4s;
 }
-.Dashboard{
+.dash{
     background-image: url("../images/superior0.jpg");
     height: 300px;
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Dashboard{
+    background-image: url("../images/fondod.png");
+  height: 950px;
     background-size: 100%;
 }
 
@@ -927,6 +932,7 @@ overflow: hidden;
     border-radius: 7px;
 }
 
+
 .textbox label{
     position: absolute;
     font-size: 13px;
@@ -1015,4 +1021,84 @@ overflow: hidden;
 }
 .gir{
     width: 220px;
+}
+
+.item1{
+    width: 100%;
+ height: 230px;
+    
+    color: wheat;
+    border-radius: 20px;
+    background-image: url("../images/fondoslide1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+
+}
+
+.slider .logo{
+    width: 100px;
+}
+
+.slider h5{
+    opacity: .4;
+}
+.slider h3{
+    color: #FFBD24;
+}
+.input-group-text{
+    background-color: #FFBD24 !important;
+}
+ 
+.item1 h6{
+    
+    color: #FFBD24;
+}
+.item1 .boton button{
+    float: left;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-color:#FFBD24 ;
+    width: 200px;
+    height: 50px;
+    transition: all ease 0.4s;
+}
+.item1 .boton button:hover{
+    transform: scale(1.1);
+    transition: all ease 0.4s;
+}
+.item2{
+    width: 100%;
+    background-color: white;
+    height: 350px;
+    border-radius: 20px;
+  
+}
+.sombra{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.item2 h5{
+    width: 80%;
+    color: #4285f4;
+    opacity: initial;
+}
+
+.item2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.item2 .logo{
+    width: 200px;
+}
+
+.item2 .textbox{
+    position: relative;
+    width: 210px;
+    height: 50px;
+    border: #4285f4 solid 1px;
+    border-radius: 7px;
 }

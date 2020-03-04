@@ -7,8 +7,10 @@
             </mdb-col>
             <mdb-col xl="6">
                 <Serv/>
-             
-            </mdb-col>
+             </mdb-col>
+             <mdb-col xl="3" >
+                 <Slider/>
+             </mdb-col>
         </mdb-row>
     </mdb-container>
 
@@ -19,6 +21,7 @@
 <script>
 import Nav from '@/components/Admin-Dashboard/Navbar.vue'
 import Serv from '@/components/Admin-Dashboard/Servicios.vue'
+import Slider from '@/components/Admin-Dashboard/Slider.vue'
  import {mdbContainer, mdbRow, mdbCol, mdbIcon} from 'mdbvue';
 
 export default {
@@ -29,6 +32,7 @@ export default {
         mdbContainer, 
         mdbRow, 
         mdbCol,
+        Slider
      
     }
 }
