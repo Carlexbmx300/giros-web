@@ -1102,3 +1102,95 @@ overflow: hidden;
     border: #4285f4 solid 1px;
     border-radius: 7px;
 }
+
+.servicios-mid .profile img{
+    width: 100px;
+    height: 100px;
+}
+
+.btn-profile img{
+    width: 20px !important;
+    height: 20px !important;
+    background: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn-profile {
+    font-size: 8px;
+    
+  
+}
+
+.btn-profile button{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: solid #1A3F6B 1.5px;
+    border-radius: 7px;
+    color: #1A3F6B;
+}
+
+.documento-profile .arrow{
+    border: none;
+    width: 15px !important;
+    height: 40px !important;
+}
+
+.documento-profile .doc{
+    border: none;
+    border-radius:0px;
+    width: 130px !important;
+}
+
+.documento-profile p{
+    font-size: 10px;
+    color: #4285f4;
+}
+.documento-profile label{
+    width: 100px;
+    font-size: 7px !important;
+}
+
+.servicios-mid .titulo h4{
+    color: #4285f4;
+    font-size: 20px;
+}
+.servicios-mid .titulo p{
+    color: black;
+    font-size: 10px;
+}
+
+.servicios-mid .titulo img{
+    width: 30px;
+    height: 30px;
+}
+
+.custom-radio{
+    background-color: #FFBD24;
+    border-radius: 200px;
+    font-size: 15px;
+}
+
+.servicios-mid .datos{
+    width: 80% !important;
+}
+.datos label{
+    font-size: 10px;
+}
+
+.confirmar{
+    background-color: #1A3F6B;
+    color: white;
+    font-size: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.mid{
+    border-left: 1px solid #4285f4;
+}
+ .pan{
+     height: 800px;
+ }

@@ -13,7 +13,7 @@
     <div class="profile " >
         <img  src="images/profile.png" alt="">
         <h5>Sara Rendon</h5>
-        <a href="" >Actualizar Datos</a>
+        <a href="/controlpanel" >Actualizar Datos</a>
     </div>
    
 <div class="MenuDashboard" >
