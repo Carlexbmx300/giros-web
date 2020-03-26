@@ -1,94 +1,84 @@
-body, html{
-    font-family: sans-serif;
-    height: 100vh;
+body,html{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
-  
-    height: 80px;
-    background-color: white;
+    height: 110px;
+    background-color: #ffffff;
 }
-.navbar img{
-    width: 80px;
-    height: 60px;
-}
-
-.navbar li a{
-   
-    color:grey;
-
+.clearmarpad{
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .navbar .menu{
     margin-right:50px ;
 }
+.menu li a  {
+height: 100%;
+line-height: 92px;
+color:#7b7b7b;
+padding-right: 2rem !important;
+padding-left: 2rem !important;
 
-
-.menu .nav-item a{
-    width: 150px;
-    padding: 28px 0px;
-    
 }
-.menu .nav-item a:hover{
-    cursor: pointer;
-    background: #F9F7F7;
-}
-
-.active{
-    background: #F9F7F7;
+.menu .nav-item a:hover, .active, .menu2 li:hover{
+    background: #ececec;
 }
 .icono{
-    position: absolute;
-    
-   width: 25px !important;
-   height: 30px !important;
-    top: 10px;
-    left: 10px;
-   
+   width: 25px ;
+   height: 30px ;
+   float: left;
+
 }
-.icono{
-    width: 10px;
-    height: 10px;
+.menu2 span{
+  float: left;
+      margin-left: 4px;
 }
-.icono2{
-    width: 25px !important;
-   height: 30px !important;
-    top: 10px;
-    left: 0px;
-}
-.icono3{
-    width: 25px !important;
-    height: 30px !important;
-}
-.menu2 .nav-item a{
-    position: relative;
-    width: 150px;
-   padding: 0px 0;
-    margin-right: 10px;
-    background: #F9F7F7;
-    border-radius: 10px;
-   text-align: center;
-   
-}
+
 .menu2 li{
-    padding: 15px 0;
+  margin: 25px 5px 0 5px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+height: 60px;
+
 }
 
-.menu2 .linea a{
-    position: relative;
-    padding: 12px 0;
-}
-.menu2 .nav-item a:hover{
-    color: black;
+.menu2 .lis a{
+    padding: 13px 0;
+    line-height: 32px;
+    text-align: left;
+    width: 100%;
+    color:#7b7b7b;
 }
 
+.menu2 .adoble a{
+    padding: 13px 0;
+    line-height: 17px;
+    text-align: left;
+    width: 100%;
+    color:#7b7b7b;
+    font-weight: bold;
+}
+
+.menu2 .asimple a{
+    padding: 13px 0;
+    line-height: 32px;
+    text-align: left;
+    width: 100%;
+    color:#7b7b7b;
+}
+
+/*fin del header*/
 .formulario{
-   
-   
+
+
 display: flex;
 justify-content: center;
 align-items: center;
 
 
-  
+
 }
 
 
@@ -101,13 +91,13 @@ align-items: center;
     font-size: 10px;
 }
 .formulario .input{
-   
+
     width: 90%;
     margin-left: 5%;
-   
+
 }
 .formulario .tittle{
- 
+
     height: 60px;
     background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 78%, rgba(209,209,209,1) 93%, rgba(171,164,171,1) 100%);
     border-top-right-radius:10px ;
@@ -127,7 +117,7 @@ align-items: center;
 }
 .input textarea{
     border: solid 1.5px #4285f4 !important;
-    
+
 }
 .formulario button{
     width: 90%;
@@ -144,11 +134,11 @@ align-items: center;
     border-left: 1px solid grey;
     height: 100%;
     width: 100%;
-    
+
 }
 .giro a{
-   
-  
+
+
     margin-left: 20px;
     font-size: 13px;
     text-align: start;
@@ -156,8 +146,8 @@ align-items: center;
 
 
 
-  
-    
+
+
 }
 .giro a .icon{
     font-size: 20px;
@@ -206,18 +196,18 @@ font-size: 1.3vw;
     background-repeat:no-repeat ;
     background-size: 100%;
     background-position: center center;
-   
- 
+
+
     background-position-y: 10%;
- 
-   
-    
+
+
+
 }
 
 #step3 .contenido{
 
-margin-top: 15%;  
-margin-left: 55%;  
+margin-top: 15%;
+margin-left: 55%;
 
 }
 #step3 .button img{
@@ -236,16 +226,16 @@ margin-left: 55%;
  #step3 .agente{
   margin-top: 18%;
    margin-left: -60px;
-  
+
 }
 #step3 .agente h5{
     color: #4285f4 ;
     text-align: center;
     font-size: 2vw;
 
-    
 
-  
+
+
 }
 #step3 .imagenes img{
     width: 8%;
@@ -253,6 +243,6 @@ margin-left: 55%;
 }
 
 .nav-link{
-    color:grey !important ;
+    color:#7b7b7b !important ;
 }
 /*contenido */

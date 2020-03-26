@@ -2,14 +2,18 @@
   "name": "girosweb",
   "version": "0.1.0",
   "private": true,
+  "description": "```\r npm install\r ```",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "vue-cli-service serve --open"
   },
+  "main": "babel.config.js",
   "dependencies": {
     "core-js": "^3.6.4",
     "mdbootstrap": "^4.14.1",
-    "mdbvue": "^6.5.1",
+    "mdbvue": "6.5.1",
     "vue": "^2.6.11",
     "vue-country-flag": "^1.3.1",
     "vue-router": "^3.1.6",
@@ -22,6 +26,16 @@
     "@vue/cli-service": "^4.2.3",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
+    "vue-cli-plugin-mdb": "~2.0.4",
     "vue-template-compiler": "^2.6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/Carlexbmx300/giros-web/issues"
+  },
+  "homepage": "https://github.com/Carlexbmx300/giros-web#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlexbmx300/giros-web.git"
   }
 }
