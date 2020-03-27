@@ -70,6 +70,50 @@ height: 60px;
 }
 
 /*fin del header*/
+
+.container-logos{
+padding: 0 0 5em 0;
+}
+.h3padding{
+padding: 2em 0 1em 0;
+}
+
+.titulo {
+    color: #2468ff;
+    font-weight: 600;
+}
+
+.contenido1{
+    background: repeating-linear-gradient(
+      100deg,
+      #f5f5f5 20px,
+    #f5f5f5 40px,
+      #e7e7e7 20px,
+      #e7e7e7 41px
+    );
+}
+
+.container-logos .col{
+    line-height: 65px;
+}
+@media (max-width: 1024px)
+{
+.container-logos .col{
+    flex-basis: auto !important;
+}
+.container-logos-main {
+background: none !important;
+}
+}
+
+.container-logos-main {
+height:100%;
+background: url('../images/bg-left.png'), url('../images/bg-right.png');
+background-position: left bottom, right bottom;
+background-repeat: no-repeat;
+background-attachment: cover;
+}
+
 .formulario{
 
 
@@ -186,23 +230,13 @@ font-size: 1.3vw;
     color: white;
     opacity: 0.8;
     font-size: 2vw;
-    width: 250px;
 }
 
-.bg{
-    background-image: url('../images/fondofija.png');
-    height:850px;
-
-    background-repeat:no-repeat ;
-    background-size: 100%;
-    background-position: center center;
-
-
-    background-position-y: 10%;
-
-
-
-}
+    .bg {
+        content: '';
+        background: transparent url(../images/slider1.gif) repeat top left;
+        background-size:100% 100%;
+    }
 
 #step3 .contenido{
 

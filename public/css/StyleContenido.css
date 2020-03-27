@@ -1,7 +1,3 @@
-
-
-
-
 .top{
     background-image: url('../images/fondo2.jpg') ;
     background-repeat: no-repeat;
@@ -9,30 +5,23 @@
     height: 800px;
     background-size: 100%;
 }
- .titulo{
-  
-   color: #4285f4 ;
-   
-   
-}
-
 
  .parrafo {
     width: 52%;
     margin-left: 24%;
-   
+
 }
 .parrafo span{
     font-weight: bold;
 }
 .parrafo p{
     opacity: 0.8;
- 
+
 }
 .mid img{
     width: 80px;
     height: 80px;
-   
+
 }
 .mid h4
 {
@@ -58,7 +47,7 @@
     width: 40%;
     padding-top: 12%;
     margin-left: 10%;
-    
+
 }
 
  .tittle h3{
@@ -70,7 +59,7 @@
     text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
 }
 .contenido2 .boton button{
     float: left;
@@ -103,7 +92,7 @@
     margin-top: 80px;
     width: 80%;
     margin-bottom: 100px;
-  
+
 }
 
 .mid3 .titulo3 h2{
@@ -127,7 +116,7 @@
     margin-bottom: 20px;
     color: white;
     opacity: 0.8;
- 
+
 }
 .mid3 button{
     float: left;
@@ -162,7 +151,7 @@
    margin-left: 20%;
   /*  display: flex;
     justify-content: space-between;*/
-  
+
 }
 
 .mid4 .images4 img{
@@ -170,13 +159,13 @@
     height: 150px;
 }
 .images4 p{
-   
+
     margin-top: 10px;
     width: 90%;
     margin-left: 5%;
    text-align: center;
     color: #2468FF;
-    
+
 }
 
 .mid5{
@@ -241,7 +230,7 @@
     padding-top: 10%;
     width: 50%;
     margin-left: 50%;
-   
+
     text-align: left;
 }
 .titulo6 h1{
@@ -257,7 +246,7 @@ text-align: justify;
 }
 .images6{
     margin-top: 50px;
-   
+
   /*  display: flex;
     justify-content: space-between;*/
 }
@@ -267,7 +256,7 @@ text-align: justify;
     background-color: white;
     border-radius: 200px;
     box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.40);
- 
+
 }
 .logo1 {
     width: 80%;
@@ -275,7 +264,7 @@ text-align: justify;
     margin-left: 10%;
     margin-top: 35%;
     opacity: 0.5;
-    
+
 }
 .logo2{
     width: 90%;
@@ -328,7 +317,7 @@ text-align: justify;
     color: #D1D3E1;
     text-align: left;
     margin-left: 10%;
-    
+
 }
 .titulo7 h1{
     font-size: 50px;
@@ -337,7 +326,7 @@ text-align: justify;
 .titulo7 span{
     font-size: 120px;
     vertical-align: middle;
-    
+
     color: white !important;
 }
 .message7 .m1{
@@ -394,7 +383,7 @@ text-align: justify;
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    
+
 }
 .imagenC p{
     color: #2468FF;
@@ -480,9 +469,9 @@ text-align: justify;
 .cc3 img{
 
     width: 80%;
-    
 
-    
+
+
 }
 .imagencc3{
     margin-top: 10%;
@@ -505,7 +494,7 @@ text-align: justify;
 .ci1 h5{
     margin-top: 30%;
     color: #FFBD24;
-  
+
 }
 
 .ci1 .button{
@@ -515,7 +504,7 @@ text-align: justify;
     width:20%;
     height: 10%;
     margin-right: 20px;
-   
+
     transition: all ease 0.4s;
 }
 
@@ -544,7 +533,7 @@ text-align: justify;
     border: none;
     background-color: #FFBD24;
     border-radius: 5px;
-   
+
     outline: none;
     transition: all ease .4s;
 }
@@ -577,7 +566,7 @@ text-align: justify;
     border: none;
     background-color: #FFBD24;
     border-radius: 5px;
-   
+
     outline: none;
     transition: all ease .4s;
 }
@@ -634,13 +623,7 @@ text-align: justify;
     height: auto;
 }
 
-.contenido1{
-    background-image: url("../images/fondoHome.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-    height: auto;
 
-}
 
 .ci8 h1,h5{
     color: white;
@@ -716,12 +699,12 @@ text-align: justify;
 .acordeon-titulo{
     display: block;
     padding: 15px;
-  
+
    color: #0847CC;
 }
 
  .acordeon-contenido{
-  
+
 height: 0;
 overflow: hidden;
     margin: 0;
@@ -746,7 +729,7 @@ overflow: hidden;
 }
 
 .MenuDashboard{
- 
+
   width: 250px;
   height: 680px;
     background-color: white;
@@ -762,7 +745,7 @@ overflow: hidden;
     background-color: #FFBD24;
     position: relative;
     margin-bottom: 15px;
-   
+
 }
 
 .pestanas h5{
@@ -770,7 +753,7 @@ overflow: hidden;
     position: absolute;
     top: 20%;
     left: 20%;
- 
+
 }
 .triangle-right {
     width: 0;
@@ -795,7 +778,7 @@ overflow: hidden;
     margin-top: 20%;
 }
 .menu-items li{
-   
+
     list-style: none;
     text-align: left;
     padding: 18px 15px;
@@ -816,8 +799,8 @@ overflow: hidden;
     height: 30px;
 }
 .IcoM{
-  
-   
+
+
     width: 25px;
     height: 30px;
    margin-right: 10px;
@@ -840,7 +823,7 @@ overflow: hidden;
     width: 100px;
     border-radius: 100%;
     border: #2468FF solid 3px;
-    
+
 
 }
 
@@ -876,7 +859,7 @@ overflow: hidden;
 }
 .page .pagina{
     color: #0847CC !important;
-   
+
 }
 .pagina a{
     color: #0847CC !important;
@@ -892,7 +875,7 @@ overflow: hidden;
     color: #0847CC;
 }
 .servicios-mid .recarga{
- 
+
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     width: 90%;
@@ -1013,7 +996,7 @@ overflow: hidden;
     width: 180px;
     background-color: #FFBD24;
     border-radius: 15px;
-    
+
 }
 .btn-rec h4{
     color: #1A3F6B;
@@ -1026,13 +1009,13 @@ overflow: hidden;
 .item1{
     width: 100%;
  height: 230px;
-    
+
     color: wheat;
     border-radius: 20px;
     background-image: url("../images/fondoslide1.png");
     background-size: 100%;
     background-repeat: no-repeat;
- 
+
 
 }
 
@@ -1049,9 +1032,9 @@ overflow: hidden;
 .input-group-text{
     background-color: #FFBD24 !important;
 }
- 
+
 .item1 h6{
-    
+
     color: #FFBD24;
 }
 .item1 .boton button{
@@ -1073,7 +1056,7 @@ overflow: hidden;
     background-color: white;
     height: 350px;
     border-radius: 20px;
-  
+
 }
 .sombra{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -1118,8 +1101,8 @@ overflow: hidden;
 
 .btn-profile {
     font-size: 8px;
-    
-  
+
+
 }
 
 .btn-profile button{

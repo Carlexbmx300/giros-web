@@ -1,5 +1,7 @@
 module.exports = {
   css: {
-    requireModuleExtension: true
+    requireModuleExtension: true,
+    modules: true,
+    extract: false
   }
 }

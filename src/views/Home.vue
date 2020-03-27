@@ -1,24 +1,26 @@
 <template>
-  <div class="home">
-    <Header/>
-    <FormRecarga/>
-    <Contenido/>
-    <ContenidoMid/>
-    <ContenidoMid2/>
-    <ContenidoMid3/>
-     <ContenidoMid4/>
-     <ContenidoMid5/>
-     <ContenidoMid6/>
-     <ContenidoMid7/>
-     <ContenidoMid8/>
-     <Footer/>
-  </div>
+<div class="home">
+  <Header />
+  <Slider />
+  <Carousel />
+  <Contenido />
+  <ContenidoMid />
+  <ContenidoMid2 />
+  <ContenidoMid3 />
+  <ContenidoMid4 />
+  <ContenidoMid5 />
+  <ContenidoMid6 />
+  <ContenidoMid7 />
+  <ContenidoMid8 />
+  <Footer />
+</div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
-import FormRecarga from '@/components/FormRecarga.vue'
+import Slider from '@/components/Slider.vue'
+import Carousel from '@/components/Carousel.vue'
 import Contenido from '@/components/contenido.vue'
 import ContenidoMid from '@/components/ContenidoMid.vue'
 import ContenidoMid2 from '@/components/ContenidoMid2.vue'
@@ -33,7 +35,8 @@ export default {
   name: 'home',
   components: {
     Header,
-    FormRecarga,
+    Slider,
+    Carousel,
     Contenido,
     ContenidoMid,
     ContenidoMid2,
@@ -41,9 +44,9 @@ export default {
     ContenidoMid4,
     ContenidoMid5,
     ContenidoMid6,
-     ContenidoMid7,
-      ContenidoMid8,
-      Footer
+    ContenidoMid7,
+    ContenidoMid8,
+    Footer
 
   }
 }
