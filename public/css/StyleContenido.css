@@ -743,6 +743,7 @@ overflow: hidden;
     background-image: url("../images/fondod.png");
   height: 950px;
     background-size: 100%;
+   
 }
 
 .MenuDashboard{
@@ -1193,4 +1194,18 @@ overflow: hidden;
 }
  .pan{
      height: 800px;
+ }
+.btnpanel{
+    background-color: #1A3F6B;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+ .btnpanel img{
+     width: 110px;
+     height: 35px;
+ }
+ .btnp1{
+     width: 130px !important;
  }
