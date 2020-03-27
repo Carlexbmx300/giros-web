@@ -175,5 +175,18 @@
  
 }
 
+.pan {
+    height: auto;
+}
+
+.mid{
+    border: none;
+}
+
+.Dashboard{
+    background-repeat: repeat-y !important;
+    height: 1500px;
+    
+}
 
 }
