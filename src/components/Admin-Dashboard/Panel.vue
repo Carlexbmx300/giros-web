@@ -35,7 +35,7 @@
                                 <mdb-col xl="12" col="6">
                                     <img class="d-xl-block d-none ml-4" src="images/profile.png" alt="">
                                     <div class="btn-profile mt-xl-3 mb-xl-4 ml-2">
-                                      <button  @click.native="modal = true">
+                                      <button>
                                       <mdb-row>
                                         <mdb-col col="2">
                                         <img src="images/IconP1.png" alt="">
@@ -45,7 +45,7 @@
                                         </mdb-col>
                                       </mdb-row>
                                         </button>
-                                        <ModalF/>
+                                   
                                     </div>
                                </mdb-col>
                                 <mdb-col xl="12" col="6">
@@ -197,11 +197,17 @@
                     </mdb-col>
                   
                 </mdb-row>
-      
+
            
                 </div>
-
-
+<!-- importado solo para vista previa -->
+                <mdb-row class="mt-5 mb-5">
+                  <ModalF/>
+                </mdb-row>
+                <mdb-row class="mt-5 mb-5">
+                  <ModalD/>
+                </mdb-row>
+<!--Eliminar hasta este punto -->
         </mdb-container>
     </div>
 </template>
@@ -209,6 +215,7 @@
 import { mdbContainer, mdbRow, mdbCol,  mdbInput, mdbBtn} from 'mdbvue';
 import CountryFlag from 'vue-country-flag'
 import ModalF from '@/components/Admin-Dashboard/ModalFotografia.vue'
+import ModalD from '@/components/Admin-Dashboard/ModalDocumento.vue'
   export default {
     name: 'PageLoader',
     components: {
@@ -219,7 +226,8 @@ import ModalF from '@/components/Admin-Dashboard/ModalFotografia.vue'
         CountryFlag,
           mdbInput,
            mdbBtn,
-          ModalF
+          ModalF,
+          ModalD
     },
      data() {
       return {

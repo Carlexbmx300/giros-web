@@ -188,5 +188,11 @@
     height: 1500px;
     
 }
+.modalf{
+    width: 300px;
+    margin-left: 16px;
+}.titulomodal, .modald .titulomodal{
+    width: 330px;
+}
 
 }
