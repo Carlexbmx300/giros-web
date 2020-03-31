@@ -1,13 +1,12 @@
 <template>
-    <div class="ci8">
- 
-            <mdb-container fluid>
+  <mdb-container class="bg_blue" fluid>
                 <mdb-row>
-                    <mdb-col class="align-self-center" xl="7" >
-                        <h1 class="text-xl-center">¿Necesitas <span>AYUDA?</span></h1>
+                    <mdb-col class="d-flex align-items-center justify-content-left" md="7" >
+                    <div class="input7">
+                        <h1 class="text-left">¿Necesitas <span>AYUDA?</span></h1>
                         <h4>Nuestro equipo esta dispuesto a brindarte la mejor asesoría</h4>
                         <h5>O ingresa a nuestro chat en la parte inferior</h5>
-                        <div class="input7">
+                        
                 <mdb-row>
                     <mdb-col xl="3" lg="4" md="4">
                         <mdb-input label="Nombre" size="sm" />
@@ -28,18 +27,15 @@
                     </mdb-col>
                 </mdb-row>
             </div>
-
                     </mdb-col>
-                    <mdb-col xl="5">
+                    <mdb-col md="5">
                         <img class="img-fluid" src="images/fondoSilueta3.png" alt="">
 
                     </mdb-col>
                 </mdb-row>
 
             </mdb-container>
-     
-    </div>
-</template>
+ </template>
 <script>
   import { mdbInput,mdbContainer, mdbRow, mdbCol,mdbBtn,mdbSelect,mdbDropdown, mdbDropdownToggle, mdbDropdownMenu, mdbDropdownItem, mdbIcon  } from 'mdbvue';
   export default {

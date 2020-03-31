@@ -1,61 +1,51 @@
 <template>
-    <div class="mid5">
-        <div class="titulo5">
-            <h4>Enviar dinero y realizar el seguimiento de transacciones desde cualquier lugar</h4>
-        </div>
-        <mdb-container fluid>
+    <mdb-container class="padmid3 bg_eee card_home" fluid>               
+        <mdb-container>    
+         <h3 class="titulo">Enviar dinero y realizar el seguimiento de transacciones desde cualquier lugar</h3>
         <mdb-row>
-            <mdb-col xl="6" lg="6" md="12" sm="12" col="12">
-                <div class="card" id="card1">
-                    <div class="CardImage">
-                        <img src="images/iconoCard1fijo.png" alt="">
-                    </div>
-                    <div class="message5">
-                        <h5>Mas facil y rapido</h5>
-                        <p>
-                            Envía dinero a Colombia y da seguimiento a tus transacciones directamente desde el teléfono. 
-                            La App móvil de Xoom está equipada con un inicio de sesión biométrico y cuenta con nuestra tecnología
-                        </p>
-                    </div>
-                    <div class="boton">
-                        <button>
-                            ¡ Hacer un giro !
-                        </button>
-                    </div>
-
-                </div>
-            </mdb-col>
-            <mdb-col xl="6" lg="6" md="12" sm="12" col="12">
-                <div class="card mb-sm-5 mb-5" id="card2">
-                     <div class="CardImage">
-                        <img src="images/iconoCard2.png" alt="">
-                    </div>
-                     <div class="message5">
-                        <h5>Garantia de devolucion</h5>
-                        <p>
-                            Garantizamos que tus fondos serán recibidos o reembolsaremos el total de tu transacción. 
-                            ¿Tienes preguntas? Ponte en contacto con nosotros en cualquier momento.
-                        </p>
-                    </div>
-                    <div class="boton">
-                        <button>
-                            ¡ Hacer un giro !
-                        </button>
-                    </div>
-
-                </div>
-            </mdb-col>
+        <mdb-col sm="6">
+	<mdb-card>
+    <mdb-card-image src="images/iconoCard1.png" alt="Card image cap"></mdb-card-image>
+    <mdb-card-body>
+      <mdb-card-title>Mas facil y rapido</mdb-card-title>
+      <mdb-card-text >  Envía dinero a Colombia y da seguimiento a tus transacciones directamente desde el teléfono. 
+                            La App móvil de Xoom está equipada con un inicio de sesión biométrico y cuenta con nuestra tecnología</mdb-card-text>
+      <mdb-btn>¡ Hacer un giro !</mdb-btn>
+    </mdb-card-body>
+  </mdb-card>
+			</mdb-col>
+                    <mdb-col sm="6">
+			<mdb-card>
+    <mdb-card-image src="images/iconoCard2.png" alt="Card image cap"></mdb-card-image>
+    <mdb-card-body>
+      <mdb-card-title>Garantia de devolucion</mdb-card-title>
+      <mdb-card-text> Garantizamos que tus fondos serán recibidos o reembolsaremos el total de tu transacción. 
+                            ¿Tienes preguntas? Ponte en contacto con nosotros en cualquier momento.</mdb-card-text>
+      <mdb-btn>¡ Hacer un giro !</mdb-btn>
+    </mdb-card-body>
+  </mdb-card>
+			</mdb-col>
+           
         </mdb-row>
         </mdb-container>
-    </div>
+        
+    </mdb-container>
+
 </template>
 <script>
-  import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
-  export default {
-    components: {
-      mdbContainer,
+	import { mdbCard,mdbContainer, mdbRow, mdbCol, mdbCardImage, mdbCardBody, mdbCardTitle, mdbCardText, mdbBtn } from 'mdbvue';
+	export default {
+		name: 'CardPage',
+		components: {
+            mdbContainer,
       mdbRow,
-      mdbCol
-    }
-  }
+      mdbCol,
+			mdbCard,
+			mdbCardImage,
+			mdbCardBody,
+			mdbCardTitle,
+			mdbCardText,
+			mdbBtn
+		}
+	}
 </script>

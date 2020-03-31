@@ -1,56 +1,36 @@
 <template>
-    <div class="mid4">
-        <div class="titulo4">
-                <h4>Transfiere de forma sencilla</h4>
-        </div>
-        <div class="message4">
-            <p>Envia dinero al extrangero desde cualquier lugar, en cualquier momento y desde cualquier dispositivo</p>
-        </div>
-        
-        <div class="images4">
-            <mdb-container fluid>
-        <mdb-row>
-            
-            <mdb-col xl="2" md="6" sm="12">
-                
-                <img src="images/moneda1.png" alt="">
-                <p>Transferencia en el menor tiempo</p>
-           
+<mdb-container class="padmid5">
+         <h3 class="titulo">Transfiere de forma sencilla</h3>
+                   <p class="padmid">Envia dinero al extrangero desde cualquier lugar, en cualquier momento y desde cualquier dispositivo</p>
+            <mdb-row>            
+            <mdb-col md="2dot4">                
+                <img src="images/moneda1.png" class="img-fluid" alt="">
+                <p class="c_blue fw_600 padmid">Transferencia en el <br/>menor tiempo</p>           
             </mdb-col >
-            <mdb-col xl="2" md="6" sm="12">
-              
-                <img src="images/moneda2.png" alt="">
-                <p>Nuestro servicio de giros 24/7</p>
+            <mdb-col md="2dot4">              
+                <img src="images/moneda2.png" class="img-fluid" alt="">
+                <p class="c_blue fw_600 padmid">Nuestro servicio de <br/>giros 24/7</p>
              
             </mdb-col>
-            <mdb-col  xl="2" md="6" sm="12">
-              
-                 <img src="images/moneda3.png" alt="">
-                <p>Desde cualquier dispositivo</p>
+            <mdb-col md="2dot4">              
+                 <img src="images/moneda3.png" class="img-fluid" alt="">
+                <p class="c_blue fw_600 padmid">Desde cualquier <br/>dispositivo</p>
              
             </mdb-col>
-            <mdb-col xl="2" md="6" sm="12">
+            <mdb-col md="2dot4">
                 
-                  <img class="float-xl-none float-md-none float-sm-none" src="images/moneda4.png" alt="">
-                 <p class="float-sm-none">Seguridad y confianza</p>
+                  <img src="images/moneda4.png" class="img-fluid" alt="">
+                 <p class="c_blue fw_600 padmid">Seguridad y <br/>confianza</p>
              
             </mdb-col>
-             <mdb-col xl="2" md="6" sm="12">
+             <mdb-col md="2dot4">
              
-                  <img src="images/moneda5.png" alt="">
-                <p>Mas economia, mas beneficios</p>
+                  <img src="images/moneda5.png" class="img-fluid" alt="">
+                <p class="c_blue fw_600 padmid">Mas economia, <br/>mas beneficios</p>
                
             </mdb-col>
-          
-         
-            
-           
-          
-           </mdb-row>
-         </mdb-container>  
-        </div>
-        
-    </div>
+               </mdb-row>        
+         </mdb-container>      
 </template>
 
 <script>

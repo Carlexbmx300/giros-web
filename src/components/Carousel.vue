@@ -4,11 +4,11 @@
   <mdb-container class="container-logos">
     <h3 class='titulo h3padding'>Agentes Pagadores</h3>
     <mdb-row>
-      <mdb-col class='col-sm'> <img src="images/logo1.png" class="img-fluid" alt=""></mdb-col>
-      <mdb-col class='col-sm'><img src="images/logo2.png" class="img-fluid" alt=""></mdb-col>
-      <mdb-col class='col-sm'><img src="images/logo3.png" class="img-fluid" alt=""></mdb-col>
-      <mdb-col class='col-sm'><img src="images/logo4.png" class="img-fluid" alt=""></mdb-col>
-      <mdb-col class='col-sm'> <img src="images/logo5.png" class="img-fluid" alt=""></mdb-col>
+      <mdb-col sm="2dot4"> <img src="images/logo1.png" class="img-fluid" alt=""></mdb-col>
+      <mdb-col sm="2dot4"><img src="images/logo2.png" class="img-fluid" alt=""></mdb-col>
+      <mdb-col sm="2dot4"><img src="images/logo3.png" class="img-fluid" alt=""></mdb-col>
+      <mdb-col sm="2dot4"><img src="images/logo4.png" class="img-fluid" alt=""></mdb-col>
+      <mdb-col sm="2dot4"> <img src="images/logo5.png" class="img-fluid" alt=""></mdb-col>
 
     </mdb-row>
   </mdb-container>
