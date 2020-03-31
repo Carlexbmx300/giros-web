@@ -1,34 +1,34 @@
 <template>
-  <mdb-container class="bg_blue" fluid>
+  <mdb-container class="bg_blue pt-5" fluid>
                 <mdb-row>
-                    <mdb-col class="d-flex align-items-center justify-content-left" md="7" >
-                    <div class="input7">
-                        <h1 class="text-left">¿Necesitas <span>AYUDA?</span></h1>
-                        <h4>Nuestro equipo esta dispuesto a brindarte la mejor asesoría</h4>
-                        <h5>O ingresa a nuestro chat en la parte inferior</h5>
+                    <mdb-col class="d-flex align-items-center justify-content-end" md="7" >
+                    <div class="d-flex justify-content-end form_container_footer text-left">
+                    <div>
+                        <h1 class="c_skyblue d-flex align-items-center">¿Necesitas <span>AYUDA?</span></h1>
+                        <h5 class="c_yellow">Nuestro equipo esta dispuesto a brindarte la mejor asesoría</h5>
+                        <h5 class="c_skyblue">O ingresa a nuestro chat en la parte inferior</h5>
                         
-                <mdb-row>
-                    <mdb-col xl="3" lg="4" md="4">
-                        <mdb-input label="Nombre" size="sm" />
-                        <p>Dejanos tu nombre</p>
+                   <mdb-row>
+                    <mdb-col xl="3">
+                        <mdb-input label="Nombre" class="c_skyblue"/>
+                        <p class="c_yellow">Dejanos tu nombre</p>
                     </mdb-col>
-                    <mdb-col xl="3" lg="4" md="4">
-                        <mdb-input label="Telefono" size="sm" />
-                        <p>Numero de contacto</p>
+                    <mdb-col xl="3">
+                        <mdb-input label="Telefono" class="c_skyblue"/>
+                        <p class="c_yellow">Numero de contacto</p>
                     </mdb-col>
-                    <mdb-col xl="3" lg="4" md="4">
-                        <mdb-input label="Correo" size="sm" />
-                        <p>Un correo electronico</p>
+                    <mdb-col xl="3" >
+                        <mdb-input label="Correo" />
+                        <p class="c_yellow">Un correo electronico</p>
                     </mdb-col>
-                    <mdb-col xl="3" lg="12" md="12">
-                        <div class="boton mb-5">
-                            <button>Solicitar soporte</button>
-                        </div>
+                    <mdb-col xl="3" class="d-flex align-items-center">
+                      <button class='button_yellow'>Solicitar </button>
                     </mdb-col>
                 </mdb-row>
-            </div>
+                </div>
+                </div>
                     </mdb-col>
-                    <mdb-col md="5">
+                    <mdb-col md="5" >
                         <img class="img-fluid" src="images/fondoSilueta3.png" alt="">
 
                     </mdb-col>

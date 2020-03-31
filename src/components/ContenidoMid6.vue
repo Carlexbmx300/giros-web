@@ -1,5 +1,5 @@
 <template>
-      <mdb-container class="bg_mid6" fluid>
+      <mdb-container class="bg_yellow" fluid>
       <mdb-container>
         <mdb-row >
             <mdb-col class="d-flex align-items-bottom" sm="6">

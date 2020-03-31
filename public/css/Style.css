@@ -158,7 +158,7 @@ background-attachment: cover;
     background-size: 100%;
     width: 100%;
 }
-.bg_mid6{
+.bg_yellow{
     background-color: #FFA700;
 }
 
@@ -173,6 +173,9 @@ background-attachment: cover;
 }
 .c_black{
     color: #000000;
+}
+.c_skyblue{
+    color: #b7c8ee;
 }
 .fw_600{
     font-weight: 600;
@@ -190,8 +193,6 @@ background-attachment: cover;
     color: white;
     font-size: 1rem !important;
 
-}
-.button_yellow_container{
 }
 .button_yellow_container button{
     font-size: 1rem !important;
@@ -218,6 +219,31 @@ background-attachment: cover;
 }
 .col-lg-2-4{
    color:red;
+}
+
+.form_container_footer{
+    margin-left: 10%;
+    width: 100%;
+}
+.form_container_footer .md-form{
+    margin-bottom: 0;
+
+}
+.form_container_footer .md-form label{
+    color:#b6c8ee;
+
+}
+.form_container_footer .md-form input{
+    color:#ffffff;
+
+}
+.form_container_footer h1 span{ 
+    color: #ffffff;
+    font-size: 2.5em;
+    
+}
+.footer-social span{
+    padding: 0 0.5em 0 0.5em;
 }
 
 /*end mid */
@@ -396,6 +422,7 @@ font-size: 1.3vw;
         content: '';
         background: transparent url(../images/slider1.gif) repeat top left;
         background-size:100% 100%;
+        height: 800px;
     }
 
 #step3 .contenido{
