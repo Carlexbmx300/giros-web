@@ -8,9 +8,9 @@
             <div>          
                     <h2 class="c_yellow text-left">4 Pasos para un giro</h2>            
                     <h3 class="c_white text-left ">COMPLETA DATOS</h3>
-                    <div class="c_white text-left padmid">
+                    <div class="c_white text-left padmid w-responsive">
                         Realizar un giro nunca a sido tan facil,
-                        mira el video y aprende como en 4 sencillos<br/> pasos puedes enviar dinero
+                        mira el video y aprende como en 4 sencillos pasos puedes enviar dinero
                      </div>
                             <button class='button_yellow'>Conoce mas</button>
                              </div>

@@ -2,10 +2,10 @@
     <div class="Nosotros">
         <Header/>        
          <Main/>
-         <Contenido2/>         
-         <Contenido3/>
-         <Contenido4/>
-         <Contenido5/>
+         <Card/> 
+         <NuestraUI/>      
+         <Lista/>
+         <Transfiere/>
          <Ahorrar/>
          <Footerform/>
          <Footersocial/>
@@ -16,10 +16,10 @@
 // @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
 import Main from '@/components/Nosotros/Main.vue'
-import Contenido2 from '@/components/Nosotros/Contenido2.vue'
-import Contenido3 from '@/components/Nosotros/Contenido3.vue'
-import Contenido4 from '@/components/Nosotros/Contenido4.vue'
-import Contenido5 from '@/components/Nosotros/Contenido5.vue'
+import Card from '@/components/Nosotros/Card.vue'
+import NuestraUI from '@/components/Nosotros/NuestraUI.vue'
+import Lista from '@/components/Home/Lista.vue'
+import Transfiere from '@/components/Home/Transfiere.vue'
 import Ahorrar from '@/components/Home/Ahorrar.vue'
 import Footerform from '@/components/Partial/Footerform.vue'
 import Footersocial from '@/components/Partial/Footersocial.vue'
@@ -31,10 +31,10 @@ export default {
   components: {
       Header,
       Main,
-      Contenido2,
-      Contenido3,
-      Contenido4,
-      Contenido5,
+      Card,
+      NuestraUI,
+      Lista,
+      Transfiere,
       Ahorrar,
       Footerform,
       Footersocial,

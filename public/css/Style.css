@@ -76,9 +76,7 @@ padding: 0 0 5em 0;
 padding: 2em 0 1em 0;
 }
 
-.titulo {
-    color: #2468ff;
-}
+
 
 .contenido1{
     background: repeating-linear-gradient(
@@ -177,6 +175,7 @@ background-attachment: cover;
 .c_white{
     color: #ffffff;
 }
+
 .c_blue{
     color: #2468ff;
 }
@@ -256,6 +255,9 @@ background-attachment: cover;
     padding: 0 0.5em 0 0.5em;
 }
 
+.card_nosotros .card{
+    box-shadow: none;
+}
 /*end mid */
 
 

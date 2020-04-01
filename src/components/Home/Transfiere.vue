@@ -1,6 +1,6 @@
 <template>
 <mdb-container class="padmid5">
-         <h3 class="titulo">Transfiere de forma sencilla</h3>
+         <h3 class="c_blue">Transfiere de forma sencilla</h3>
                    <p class="padmid">Envia dinero al extrangero desde cualquier lugar, en cualquier momento y desde cualquier dispositivo</p>
             <mdb-row>            
             <mdb-col md="2dot4">                

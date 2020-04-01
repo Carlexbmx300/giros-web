@@ -4,7 +4,7 @@
             <mdb-row>
                 <mdb-col class="d-flex align-items-center" sm="4" >
                 <div>
-                    <h4 class="titulo h3padding text-left">Cualquier dispositivo</h4>
+                    <h4 class="c_blue h3padding text-left">Cualquier dispositivo</h4>
                     <p class="text-left">Accede desde cualquier smartphone o table y realiza giros y recargas de maner agil</p>
                     <button class='button_yellow'>Conoce mas</button>
                    </div>
@@ -19,21 +19,13 @@
 
 </template>
 <script>
-  import { mdbInput,mdbContainer, mdbRow, mdbCol,mdbBtn,mdbSelect,mdbDropdown, mdbDropdownToggle, mdbDropdownMenu, mdbDropdownItem, mdbIcon  } from 'mdbvue';
+  import {mdbContainer, mdbRow, mdbCol } from 'mdbvue';
   export default {
     name: "Input",
     components: {
-      mdbInput,
       mdbContainer,
       mdbRow,
-      mdbCol,
-      mdbBtn,
-      mdbSelect,
-      mdbDropdown, 
-      mdbDropdownToggle, 
-      mdbDropdownMenu, 
-      mdbDropdownItem,
-        mdbIcon 
+      mdbCol
     },
     data() {
       return {

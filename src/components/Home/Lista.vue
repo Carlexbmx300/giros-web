@@ -1,6 +1,6 @@
 <template>
         <mdb-container>
-             <mdb-row class='padmid'>
+             <mdb-row class='padmid3'>
             <mdb-col class="d-flex align-items-center" col="3">
                 <img  class="img-fluid mx-auto shoppic" src="images/iconoC1.gif" alt="">
             </mdb-col>

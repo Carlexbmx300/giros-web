@@ -1,7 +1,7 @@
 <template>
     <mdb-container class="padmid3 bg_eee card_home" fluid>               
         <mdb-container>    
-         <h3 class="titulo">Enviar dinero y realizar el seguimiento de transacciones desde cualquier lugar</h3>
+         <h3 class="c_blue">Enviar dinero y realizar el seguimiento de transacciones desde cualquier lugar</h3>
         <mdb-row>
         <mdb-col sm="6">
 	<mdb-card>
