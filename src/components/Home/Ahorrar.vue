@@ -44,7 +44,7 @@
 <script>
   import { mdbInput,mdbContainer, mdbRow, mdbCol,mdbBtn,mdbSelect,mdbDropdown, mdbDropdownToggle, mdbDropdownMenu, mdbDropdownItem, mdbIcon  } from 'mdbvue';
   export default {
-    name: "Input",
+    name: "Container6",
     components: {
       mdbInput,
       mdbContainer,

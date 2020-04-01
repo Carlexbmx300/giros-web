@@ -180,9 +180,6 @@ background-attachment: cover;
 .c_blue{
     color: #2468ff;
 }
-.c_black{
-    color: #000000;
-}
 .c_skyblue{
     color: #b7c8ee;
 }
@@ -228,6 +225,10 @@ background-attachment: cover;
 }
 .col-lg-2-4{
    color:red;
+}
+#main_slider h1{
+    font-size: 4.2rem;
+    font-weight: bold;
 }
 
 .form_container_footer{

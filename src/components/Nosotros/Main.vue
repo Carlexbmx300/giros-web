@@ -4,15 +4,11 @@
   <mdb-row class="container_slider h-100">
     <mdb-col sm="6">
       </mdb-col>
-    <mdb-col class="d-flex align-items-center" sm="6">
+    <mdb-col id="main_slider" class="d-flex align-items-center" sm="6">
       <div>
-        <h6 class="font-italic">Somos una solucion de tiempo completo</h6>
-        <h1>¿QUE DESEAS HACER?</h1>
-        <h4>Seleciona la opcion que desea usar</h4>
-  <div class="button">
-          <img src="images/tituo1.png" alt="">
-          <img src="images/titulo2.png" alt="">
-        </div>
+        <h1 class="c_yellow text-left">NUESTRA EMPRESA</h1>
+        <h3 class="white-text text-left">CONOCE LA SOLIDEZ DE NUESTRA COMPAÑIA</h3>
+        <h5 class="c_skyblue text-left">Respaldo, experiencia y solidez; somos la solución <br/> eficiente para sus giros y recargas</h5>
       </div>
     </mdb-col>
   </mdb-row>
