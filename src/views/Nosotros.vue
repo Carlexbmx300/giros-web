@@ -1,6 +1,7 @@
 <template>
     <div class="Nosotros">
         <Header/>
+        <Main/>
         <Contenido1/>
          <Contenido2/>
          <Contenido3/>
@@ -15,7 +16,7 @@
 <script>
 // @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
-import Contenido1 from '@/components/Nosotros/Main.vue'
+import Main from '@/components/Nosotros/Main.vue'
 import Contenido1 from '@/components/Nosotros/Contenido1.vue'
 import Contenido2 from '@/components/Nosotros/Contenido2.vue'
 import Contenido3 from '@/components/Nosotros/Contenido3.vue'

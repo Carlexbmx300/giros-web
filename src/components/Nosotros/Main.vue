@@ -22,7 +22,7 @@
 <script>
 import { mdbContainer, mdbRow, mdbCol } from 'mdbvue';
 export default {
-  name: "Input",
+  name: "Main",
   components: {
     mdbContainer,
     mdbRow,
