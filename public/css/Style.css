@@ -2,6 +2,7 @@ body,html{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 .navbar{
     height: 110px;
@@ -11,9 +12,6 @@ body,html{
   margin: 0 !important;
   padding: 0 !important;
 }
-.navbar .menu{
-    margin-right:50px ;
-}
 .menu li a  {
 height: 100%;
 line-height: 92px;
@@ -22,7 +20,7 @@ padding-right: 2rem !important;
 padding-left: 2rem !important;
 
 }
-.menu .nav-item a:hover, .active, .menu2 li:hover{
+.menu .nav-item a:hover, .menu .active, .menu2 li:hover{
     background: #ececec;
 }
 .icono{
@@ -103,6 +101,17 @@ padding: 2em 0 1em 0;
 .container-logos-main {
 background: none !important;
 }
+.fomr_h1{
+    font-size: 18px !important;
+}
+}
+@media (max-width: 1366px)
+{
+    .menu2 span {
+        display: none;
+    }
+    
+
 }
 
 .container-logos-main {
@@ -321,49 +330,17 @@ font-size: 1.3vw;
     font-size: 2vw;
 }
 
-    .bg {
-        content: '';
-        background: transparent url(../images/slider1.gif) repeat top left;
-        background-size:100% 100%;
-        height: 800px;
+    .bg_slider {
+        background: transparent url(../images/bg_slider_main.gif);
+    /* Half height */
+    height: calc(80vh - 60px);
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
-
-#step3 .contenido{
-
-margin-top: 15%;
-margin-left: 55%;
-
-}
-#step3 .button img{
-    width:30%;
-    height: 10%;
-    margin-right: 20px;
-    float: left;
-    transition: all ease 0.4s;
-}
-
-#step3 .button img:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all ease 0.4s;
-}
- #step3 .agente{
-  margin-top: 18%;
-   margin-left: -60px;
-
-}
-#step3 .agente h5{
-    color: #4285f4 ;
-    text-align: center;
-    font-size: 2vw;
-
-
-
-
-}
-#step3 .imagenes img{
-    width: 8%;
-    margin-right: 8%;
+.container_slider{
+height: auto;
 }
 
 .nav-link{

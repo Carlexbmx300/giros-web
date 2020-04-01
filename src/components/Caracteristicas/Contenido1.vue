@@ -5,7 +5,7 @@
                 <mdb-col xl="12">
                     <div class="mt-xl-5  float-xl-right float-lg-right float-md-right float-sm-right float-col-right" >
                     <h1>CARACTERISTICAS A LA MEDIDA</h1>
-                    </div>
+                      </div>
                 </mdb-col>
             </mdb-row>
             <mdb-row>
