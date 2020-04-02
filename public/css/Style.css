@@ -102,6 +102,11 @@ background: none !important;
 .fomr_h1{
     font-size: 18px !important;
 }
+.bg_slider_login, .bg_slider {
+    height: 100% !important;
+    padding: 3em 0 3em 0;
+
+}
 }
 @media (max-width: 1366px)
 {
@@ -330,11 +335,54 @@ background-attachment: cover;
     background-repeat: no-repeat;
     background-size: cover;
     }
+    .bg_slider_login {
+        background: transparent url(../images/bg_slider_login.png);
+    /* Half height */
+    height: calc(80vh - 60px);
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 .container_slider{
 height: auto;
 }
 
 .nav-link{
     color:#7b7b7b !important ;
+}
+.card_round_border .card{
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+.card_round_border .card .card-body{
+    border-radius: 15px 15px 0 0 !important;
+    -webkit-border-radius: 15px 15px 0 0 !important;
+    -moz-border-radius: 15px 15px 0 0 !important;
+    -ms-border-radius: 15px 15px 0 0 !important;
+    -o-border-radius: 15px 15px 0 0 !important;
+}
+.blue__mdbinput label{
+    color: #2468ff !important;
+    font-size: 1rem !important;
+}
+.blue__mdbinput input, .blue_form_button{
+    border: 1px solid #2468ff !important;
+    border-radius:10px !important;
+    -webkit-border-radius:10px !important;
+    -moz-border-radius:10px !important;
+    -ms-border-radius:10px !important;
+    -o-border-radius:10px !important;
+}
+
+.container_slider .blue_form_button{
+  background-color: #ffffff !important;
+  color: #2468ff !important ;
+
+  padding: 0.1rem;
+  font-size: 1rem;
 }
 /*contenido */

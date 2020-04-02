@@ -15,7 +15,7 @@
 <script>
 // @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
-import Main from '@/components/Login/Main.vue'
+import Main from '@/components/Registro/Main.vue'
 import Lista from '@/components/Login/Lista.vue'
 import Card from '@/components/Home/Card.vue'
 import Transfiere from '@/components/Home/Transfiere.vue'
