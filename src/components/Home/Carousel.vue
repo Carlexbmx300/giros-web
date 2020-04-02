@@ -1,6 +1,6 @@
 
 <template>
-</carousel>
+
 <mdb-container class="container-logos-main" fluid>
   <mdb-container class="container-logos">
     <h3 class='c_blue h3padding'>Agentes Pagadores</h3>
@@ -47,7 +47,8 @@ export default {
     carousel,
     mdbRow,
     mdbCol,
-    mdbBtn
+    mdbBtn,
+    carousel
   },
   data() {
     return {

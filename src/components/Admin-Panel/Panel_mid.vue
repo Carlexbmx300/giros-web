@@ -1,21 +1,5 @@
 <template>
-    <div class="servicios">
-        <mdb-container fluid>
-             <div class="titulo mt-5 mb-3 d-xl-block d-none">
-                <mdb-row>
-                  <mdb-col xl="1" col="1">
-                    <img class="ml-n3" src="images/IconD5.png" alt="">
-                  </mdb-col>
-                  <mdb-col xl="5" col="11" class="text-xl-left align-self-center ml-n1">
-                    <h5 class="h5-responsive">MI CUENTA</h5>
-                  </mdb-col>
-                
-                  </mdb-row>
-              </div>
-
-           
-          
-            <div class="servicios-mid pan pt-5 mt-xl-0 mt-5">
+    <div class="servicios-mid pan pt-5 mt-xl-0 mt-5">
                <div class="btnpanel d-xl-none d-flex mt-n5 ">
               <mdb-row class="ml-1 align-self-center">
                 <mdb-col col="6">
@@ -33,9 +17,9 @@
                           <mdb-row>
                               <div class="profile d-xl-block d-flex" >
                                 <mdb-col xl="12" col="6">
-                                    <img class="d-xl-block d-none ml-4" src="images/profile.png" alt="">
+                                    <img class="d-xl-block d-none ml-4 img_dash" src="images/profile.png" alt="">
                                     <div class="btn-profile mt-xl-3 mb-xl-4 ml-2">
-                                      <button  @click.native="modal = true">
+                                      <button>
                                       <mdb-row>
                                         <mdb-col col="2">
                                         <img src="images/IconP1.png" alt="">
@@ -45,7 +29,7 @@
                                         </mdb-col>
                                       </mdb-row>
                                         </button>
-                                        <ModalF/>
+                                   
                                     </div>
                                </mdb-col>
                                 <mdb-col xl="12" col="6">
@@ -197,18 +181,14 @@
                     </mdb-col>
                   
                 </mdb-row>
-      
+
            
                 </div>
-
-
-        </mdb-container>
-    </div>
 </template>
 <script>
 import { mdbContainer, mdbRow, mdbCol,  mdbInput, mdbBtn} from 'mdbvue';
-import CountryFlag from 'vue-country-flag'
-import ModalF from '@/components/Admin-Dashboard/ModalFotografia.vue'
+
+
   export default {
     name: 'PageLoader',
     components: {
@@ -216,15 +196,10 @@ import ModalF from '@/components/Admin-Dashboard/ModalFotografia.vue'
       mdbContainer, 
         mdbRow, 
         mdbCol,
-        CountryFlag,
+       
           mdbInput,
-           mdbBtn,
-          ModalF
-    },
-     data() {
-      return {
-        modal: false
-      };
+           mdbBtn
     }
+     
   }
 </script>

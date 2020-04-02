@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import panel from '@/components/Admin-Panel/Panel-control.vue'
+import panel from '@/components/Admin-comparte/Comparte.vue'
 export default {
   name: 'dashboard',
   components: {

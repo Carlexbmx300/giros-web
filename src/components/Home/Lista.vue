@@ -10,11 +10,11 @@
                     como Éxito y Bancolombia. Haz depósitos bancarios a todos los bancos, incluidos Bancolombia y DAVIVIENDA.</p>
             </mdb-col>
         </mdb-row>
-        </div>
+        
         <mdb-row class='padmid'> 
             <mdb-col class="d-flex align-items-center" col="3">
-                <img class="img-fluid mx-auto shoppic"src="images/iconoC2.gif" alt="">
-            </mdb-col>
+                <img class="img-fluid mx-auto shoppic" src="images/iconoC2.gif" alt="">
+            </mdb-col> 
             <mdb-col class="text-left" col="9">
                 <h3>¿Que tan rapido llegara mi dinero a Colombia?</h3>
                 <p>Elige pago en ventanilla y tu dinero llegará normalmente en minutos a un gran número de lugares en Colombia. 

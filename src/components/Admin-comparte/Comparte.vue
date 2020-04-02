@@ -20,7 +20,7 @@
 </template>
 <script>
 import Nav from '@/components/Admin-Dashboard/Navbar.vue'
-import panel from '@/components/Admin-Dashboard/Panel.vue'
+import panel from '@/components/Admin-comparte/Panel_comparte.vue'
 import Slider from '@/components/Admin-Dashboard/Slider.vue'
  import {mdbContainer, mdbRow, mdbCol, mdbIcon} from 'mdbvue';
 

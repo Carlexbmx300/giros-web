@@ -14,7 +14,7 @@
         </mdb-row>
         <mdb-row class='padmid'> 
             <mdb-col class="d-flex align-items-center" col="3">
-                <img class="img-fluid mx-auto shoppic"src="images/moneda2.png" alt="">
+                <img class="img-fluid mx-auto shoppic" src="images/moneda2.png" alt="">
             </mdb-col>
              <mdb-col class="text-left d-flex justify-content-start align-items-center" col="9">
                 <mdb-container>
@@ -25,7 +25,7 @@
         </mdb-row>
         <mdb-row class='padmid'> 
             <mdb-col class="d-flex align-items-center" col="3">
-                <img class="img-fluid mx-auto shoppic"src="images/moneda3.png" alt="">
+                <img class="img-fluid mx-auto shoppic" src="images/moneda3.png" alt="">
             </mdb-col>
             <mdb-col class="text-left d-flex justify-content-start align-items-center" col="9">
                 <mdb-container>
@@ -36,7 +36,7 @@
         </mdb-row>
         <mdb-row class='padmid'> 
             <mdb-col class="d-flex align-items-center" col="3">
-                <img class="img-fluid mx-auto shoppic"src="images/moneda4.png" alt="">
+                <img class="img-fluid mx-auto shoppic" src="images/moneda4.png" alt="">
             </mdb-col>
              <mdb-col class="text-left d-flex justify-content-start align-items-center" col="9">
                 <mdb-container>
@@ -47,7 +47,7 @@
         </mdb-row>
         <mdb-row class='padmid'> 
             <mdb-col class="d-flex align-items-center" col="3">
-                <img class="img-fluid mx-auto shoppic"src="images/moneda5.png" alt="">
+                <img class="img-fluid mx-auto shoppic" src="images/moneda5.png" alt="">
             </mdb-col>
             <mdb-col class="text-left d-flex justify-content-start align-items-center" col="9">
                 <mdb-container>
