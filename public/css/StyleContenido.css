@@ -808,6 +808,7 @@ overflow: hidden;
     background-color: white;
     border-top-left-radius:25px ;
     border-top-right-radius:25px ;
+    border-radius: 25px;
     height: auto;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     width: 100%;
@@ -1123,6 +1124,7 @@ overflow: hidden;
      height: 800px;
  }
  .btnpanel{
+     width: 100%;
     background-color: #1A3F6B;
     height: 80px;
     border-top-left-radius: 15px;
@@ -1242,3 +1244,69 @@ overflow: hidden;
     width: 15px !important;
     height: 40px !important;
  }
+.pan input, select{
+    height: 50px !important;
+}
+.pan select {
+    width: 120px;
+    font-size: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #2468FF;
+    color: #ffffff;
+    border: solid 1px #2468FF;
+   
+}
+
+.pan input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: solid 1px #2468FF;
+    font-size: 15px;
+    color: #2468FF;
+}
+
+.table th{
+    
+    padding: 1px !important;
+  
+    
+    
+}
+
+
+
+
+.bgC{
+    padding: 0 !important;
+    text-align: center;
+    background-color: #FFBD24;
+    margin: 0;
+}
+
+.textbox span{
+    font-size: 10px !important;
+}
+
+.textbox p{
+    color: #2468FF;
+}
+.pareja {
+    width: 100% !important;
+    height: 100% !important;
+}
+.bottomC{
+    background-image: url("../images/primerfondofija.png");
+    background-size: cover;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+}
+.bottomC h5{
+    color: #FFBD24;
+}
+.bottomC p{
+    color: #ffffff;
+}
+.con{
+    width: 112%;
+}

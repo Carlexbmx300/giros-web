@@ -70,7 +70,24 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/Panel-control.vue')
+  },
+  {
+    path: '/comparte',
+    name: 'comparte',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Comparte.vue')
+  },
+  {
+    path: '/beneficiarios',
+    name: 'beneficiarios',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Beneficiarios.vue')
   }
+
 
 ]
 

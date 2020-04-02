@@ -43,8 +43,8 @@
     <li>      <img src="images/IconoD3.png" class="IcoM" alt="" srcset="">Recarga de celular</li>
     <li> <img src="images/IconoD4.png" class="IcoM" alt="" srcset="">Transferencias Enviadas</li>
     <li> <img src="images/IconoD5.png" class="IcoM" alt="" srcset="">Transferecias Recibidas</li>
-    <li> <img src="images/IconoD6.png" class="IcoM" alt="" srcset="">Benficiarios</li>
-    <li> <img src="images/IconoD7.png" class="IcoM" alt="" srcset="">Comparte y gana</li>
+    <li> <img src="images/IconoD6.png" class="IcoM" alt="" srcset=""><a href="/beneficiarios">Beneficiarios</a></li>
+    <li> <img src="images/IconoD7.png" class="IcoM" alt="" srcset=""><a href="/comparte">Comparte y gana</a></li>
 </div>
 
 <div class="soporte">
