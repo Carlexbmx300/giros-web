@@ -1,11 +1,8 @@
 <template>
     <div class="recarga">
         <Header/>
-
-    
-       
-         <Contenido5/>
-                 <Recargas/>
+		<Recargas/>
+         <Contenido5/>                 
          <Contenido6/>
          <Contenido7/>
          <Contenido8/>
@@ -29,13 +26,7 @@ export default {
   name: 'Recarga',
   components: {
       Header,
-      Recargas,
-     
-  
-      Contenido5,
-      Contenido6,
-      Contenido7,
-      Contenido8,
+      Recargas,  
       Footer
     
    
