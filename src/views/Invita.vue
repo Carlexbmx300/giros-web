@@ -1,45 +1,45 @@
 <template>
     <div class="invita">
         <Header/>
-        <Contenido1/>
-        <Contenido2/>
-        <Contenido3/>
-        <Contenido4/>
-        <Contenido5/>
-        <Contenido6/>
-        <Contenido7/>
-        <Contenido8/>
-        <Contenido9/>
+        <Main/>
+        <Gana/>
+        <Planes/>
+        <Lista/>
+        <Dispositivo/>
+        <Card/>
+        <Ahorrar/>
+        <Footerform/>
+        <Footersocial/>
         <Footer/>
     </div>
 </template>
 <script>
 // @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
-import Contenido1 from '@/components/Invita/Contenido1.vue'
-import Contenido2 from '@/components/Invita/Contenido2.vue'
-import Contenido3 from '@/components/Invita/Contenido3.vue'
-import Contenido4 from '@/components/Invita/Contenido4.vue'
-import Contenido5 from '@/components/Invita/Contenido5.vue'
-import Contenido6 from '@/components/Invita/Contenido6.vue'
-import Contenido7 from '@/components/Invita/Contenido7.vue'
-import Contenido8 from '@/components/Invita/Contenido8.vue'
-import Contenido9 from '@/components/Invita/Contenido9.vue'
+import Main from '@/components/Invita/Main.vue'
+import Gana from '@/components/Invita/Gana.vue'
+import Planes from '@/components/Invita/Planes.vue'
+import Lista from '@/components/Invita/Lista.vue'
+import Dispositivo from '@/components/Home/Dispositivo.vue'
+import Card from '@/components/Invita/Card.vue'
+import Ahorrar from '@/components/Home/Ahorrar.vue'
+import Footerform from '@/components/Partial/Footerform.vue'
+import Footersocial from '@/components/Partial/Footersocial.vue'
 import Footer from '@/components/Partial/Footer.vue'
 
 export default {
   name: 'Invita',
   components: {
     Header,
-    Contenido1,
-    Contenido2,
-    Contenido3,
-    Contenido4,
-    Contenido5,
-    Contenido6,
-    Contenido7,
-    Contenido8,
-    Contenido9,
+    Main,
+    Gana,
+    Planes,
+    Lista,
+    Dispositivo,
+    Card,
+    Ahorrar,
+    Footerform,
+    Footersocial,
     Footer
    
 

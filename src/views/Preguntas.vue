@@ -1,44 +1,37 @@
 <template>
     <div class="preguntas">
         <Header/>
-        <Contenido1/>
-    <ContenidoPreguntas/>
-       
-         <Contenido5/>
-         <Contenido6/>
-         <Contenido7/>
-         <Contenido8/>
+        <Main/>
+        <Lista/>       
+         <Transfiere/>
+         <Ahorrar/>
+         <Footerform/>
+         <Footersocial/>
          <Footer/>
     </div>
 </template>
 <script>
 // @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
-import Contenido1 from '@/components/Preguntas/Contenido1.vue'
-import ContenidoPreguntas from '@/components/Preguntas/ContenidoPreguntas.vue'
-
-//import Contenido5 from '@/components/Nosotros/Contenido5.vue'
-//import Contenido6 from '@/components/Nosotros/Contenido6.vue'
-//import Contenido7 from '@/components/Nosotros/Contenido7.vue'
-//import Contenido8 from '@/components/Nosotros/Contenido8.vue'
+import Main from '@/components/Preguntas/Main.vue'
+import Lista from '@/components/Preguntas/Lista.vue'
+import Transfiere from '@/components/Preguntas/Transfiere.vue'
+import Ahorrar from '@/components/Home/Ahorrar.vue'
+import Footerform from '@/components/Partial/Footerform.vue'
+import Footersocial from '@/components/Partial/Footersocial.vue'
 import Footer from '@/components/Partial/Footer.vue'
-
 
 export default {
   name: 'preguntas',
   components: {
       Header,
-      Contenido1,
-      ContenidoPreguntas,
-  
-      Contenido5,
-      Contenido6,
-      Contenido7,
-      Contenido8,
+      Main,
+      Lista,
+      Transfiere,
+      Ahorrar,
+      Footerform,
+      Footersocial,
       Footer
-    
-   
-
   }
 }
 </script>
