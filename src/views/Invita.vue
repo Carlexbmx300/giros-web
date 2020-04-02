@@ -15,7 +15,7 @@
 </template>
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
+import Header from '@/components/Partial/Header.vue'
 import Contenido1 from '@/components/Invita/Contenido1.vue'
 import Contenido2 from '@/components/Invita/Contenido2.vue'
 import Contenido3 from '@/components/Invita/Contenido3.vue'
@@ -25,7 +25,7 @@ import Contenido6 from '@/components/Invita/Contenido6.vue'
 import Contenido7 from '@/components/Invita/Contenido7.vue'
 import Contenido8 from '@/components/Invita/Contenido8.vue'
 import Contenido9 from '@/components/Invita/Contenido9.vue'
-import Footer from '@/components/Invita/Footer.vue'
+import Footer from '@/components/Partial/Footer.vue'
 
 export default {
   name: 'Invita',

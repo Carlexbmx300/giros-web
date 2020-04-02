@@ -1,41 +1,44 @@
 <template>
     <div class="caracteristicas">
       <Header/>
-      <Contenido1/>
-      <Contenido2/>
-      <Contenido3/>
-      <Contenido4/>
-      <Contenido5/>
-      <Contenido6/>
-      <Contenido7/>
+      <Main/>
+      <Carousel/>
+      <Lista/>
+      <Panelrecarga/>
+      <Card/>
+      <Ahorrar/>
+      <Footerform/>
+      <Footersocial/>
       <Footer/>
 
     </div>
 </template>
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
-import Contenido1 from '@/components/Caracteristicas/Contenido1.vue'
-import Contenido2 from '@/components/Caracteristicas/Contenido2.vue'
-import Contenido3 from '@/components/Caracteristicas/Contenido3.vue'
-import Contenido4 from '@/components/Caracteristicas/Contenido4.vue'
-import Contenido5 from '@/components/Caracteristicas/Contenido5.vue'
-import Contenido6 from '@/components/Caracteristicas/Contenido6.vue'
-import Contenido7 from '@/components/Caracteristicas/Contenido7.vue'
-import Footer from '@/components/Caracteristicas/Footer.vue'
+import Header from '@/components/Partial/Header.vue'
+import Main from '@/components/Caracteristicas/Main.vue'
+import Carousel from '@/components/Home/Carousel.vue'
+import Lista from '@/components/Caracteristicas/Lista.vue'
+import Panelrecarga from '@/components/Caracteristicas/Panelrecarga.vue'
+import Card from '@/components/Home/Card.vue'
+import Ahorrar from '@/components/Home/Ahorrar.vue'
+import Footerform from '@/components/Partial/Footerform.vue'
+import Footersocial from '@/components/Partial/Footersocial.vue'
+import Footer from '@/components/Partial/Footer.vue'
 
 
 export default {
   name: 'caracteristicas',
   components: {
     Header,
-    Contenido1,
-    Contenido2,
-    Contenido3,
-    Contenido4,
-    Contenido5,
-    Contenido6,
-    Contenido7,
+    Main,
+    Carousel,
+    Lista,
+    Panelrecarga,
+    Card,
+    Ahorrar,
+    Footerform,
+    Footersocial,
     Footer
   
 

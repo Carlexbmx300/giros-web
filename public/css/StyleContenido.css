@@ -74,15 +74,6 @@
 .contenido2 .boton button:hover{
     transform: scale(1.1);
     transition: all ease 0.4s;
-}.mid3{
-    background-image:  linear-gradient(
-        rgba(50, 70, 255, 0.9),
-        rgba(50, 70, 255, 0.9)
-      ), url('../images/FONDO-gray.jpg');
-    background-repeat:repeat-y;
-    background-size: 100%;
-    width: 100%;
-    height: auto;
 }
 
 .contenido3{
@@ -173,14 +164,7 @@
     height: auto;
     background-color: #EEEEEE;
 }
-.card{
-    width: 90%;
-   margin-top: 100px;
-    height: 450px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
-    margin-left: 5%;
-}
+
 
 .titulo5 h4
 {
@@ -188,35 +172,9 @@
     color: #4285f4;
 }
 
-.card img{
-    margin-top: 30px;
-    width: 100px;
-    width: 100px;
-}
-.card h5{
-    margin-top: 20px;
-    font-weight: bold;
-}
-.card P{
-    width: 60%;
-    margin-left: 20%;
-    height: 150px;
-}
 
-.card button{
-    width: 60%;
-    border: none;
-    height: 40px;
-    background-color: #2468FF;
-    border-radius: 5px;
-    transition: all ease .4s;
-    color: white;
 
-}
-.card button:hover{
-    transform: scale(1.1);
-    transition: all ease .4s;
-}
+
 
 .mid6{
     width: 100%;
@@ -342,10 +300,7 @@ text-align: justify;
     margin-left: 10%;
     font-size: 30px;
 }
-.input7{
-    margin-top: 50px;
-    margin-left: 10%;
-}
+
 
 .input7 label{
     color:white;
@@ -655,12 +610,6 @@ text-align: justify;
     width: 100%;
 }
 
-.cn1 h1{
-    color: #F9A600;
-}
-.cn1 h3,h4{
-    color: white;
-}
 
 .cn2 img{
     width:100px;
@@ -827,8 +776,9 @@ overflow: hidden;
 }
 
 
-.profile img{
-    width: 100px;
+.img_dash{
+    width: 100px !important;
+    height: 100px !important;
     border-radius: 100%;
     border: #2468FF solid 3px;
 
@@ -853,9 +803,7 @@ overflow: hidden;
     height: 200px;
     background-color: green;
 }
-.rojo{
-    background-color: red;
-}
+
 .servicios-mid{
     background-color: white;
     border-top-left-radius:25px ;
@@ -879,9 +827,7 @@ overflow: hidden;
 }
 
 
-.servicios-mid .recarga h4{
-    color: #0847CC;
-}
+
 .servicios-mid .recarga{
 
     border-radius: 10px;
@@ -911,11 +857,12 @@ overflow: hidden;
     width: 90%;
     margin-left: 5%;
 }
-.servicios-mid .giro-enviado h4{
+.servicios-mid  h4{
     color: #0847CC;
+    font-size: 20px;
 }
 
-.servicios-mid .textbox{
+.textbox{
     position: relative;
     width: 210px;
     height: 50px;
@@ -959,9 +906,7 @@ overflow: hidden;
     margin-left: 5%;
 }
 
-.giro-recibido h4{
-    color: #0847CC;
-}
+
 .servicios-mid img{
     width: 30px;
     height: 30px;
@@ -1086,18 +1031,9 @@ overflow: hidden;
     width: 200px;
 }
 
-.item2 .textbox{
-    position: relative;
-    width: 210px;
-    height: 50px;
-    border: #4285f4 solid 1px;
-    border-radius: 7px;
-}
 
-.servicios-mid .profile img{
-    width: 100px;
-    height: 100px;
-}
+
+
 
 .btn-profile img{
     width: 20px !important;
@@ -1132,6 +1068,7 @@ overflow: hidden;
     border: none;
     border-radius:0px;
     width: 130px !important;
+    height: 100px;
 }
 
 .documento-profile p{

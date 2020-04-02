@@ -11,7 +11,7 @@
     
   <div class="aside" v-bind:class="{open_menu:salir}">
     <div class="profile " >
-        <img  src="images/profile.png" alt="">
+        <img class="img_dash" src="images/profile.png" alt="">
         <h5>Sara Rendon</h5>
         <a href="/controlpanel" >Actualizar Datos</a>
     </div>

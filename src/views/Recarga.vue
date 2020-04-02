@@ -14,15 +14,15 @@
 </template>
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
+import Header from '@/components/Partial/Header.vue'
 import Recargas from '@/components/Recarga/Recargas.vue'
 
 
-import Contenido5 from '@/components/Nosotros/Contenido5.vue'
-import Contenido6 from '@/components/Nosotros/Contenido6.vue'
-import Contenido7 from '@/components/Nosotros/Contenido7.vue'
-import Contenido8 from '@/components/Nosotros/Contenido8.vue'
-import Footer from '@/components/Nosotros/Footer.vue'
+//import Contenido5 from '@/components/Nosotros/Contenido5.vue'
+//import Contenido6 from '@/components/Nosotros/Contenido6.vue'
+//import Contenido7 from '@/components/Nosotros/Contenido7.vue'
+//import Contenido8 from '@/components/Nosotros/Contenido8.vue'
+import Footer from '@/components/Partial/Footer.vue'
 
 
 export default {

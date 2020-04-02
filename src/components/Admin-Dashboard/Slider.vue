@@ -76,13 +76,7 @@
                             <mdb-col xl="12" class="justify-content-center ml-4">
                                 <div class="textbox">
                                     <label for="textbox">Moneda</label>
-                                     <country-flag country='col' size="small" class="ml-5"/>
-                                 <select class="browser-default custom-select">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1"></option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                    
                                 </div>
                             </mdb-col>
                         </mdb-row>
@@ -117,13 +111,8 @@
                             <mdb-col xl="12" class="justify-content-center ml-4">
                                 <div class="textbox">
                                     <label for="textbox">Moneda</label>
-                                     <country-flag country='col' size="small" class="ml-5"/>
-                                 <select class="browser-default custom-select">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1"></option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                    
+                               
                                 </div>
                             </mdb-col>
                         </mdb-row>
@@ -157,13 +146,7 @@
                             <mdb-col xl="12" class="justify-content-center ml-4">
                                 <div class="textbox">
                                     <label for="textbox">Moneda</label>
-                                     <country-flag country='col' size="small" class="ml-5"/>
-                                 <select class="browser-default custom-select">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1"></option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                    
                                 </div>
                             </mdb-col>
                         </mdb-row>
