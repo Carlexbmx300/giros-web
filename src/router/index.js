@@ -64,15 +64,8 @@ const routes = [
 
   {
     path: '/controlpanel',
-<<<<<<< HEAD
     name: 'controlpanel',    
     component: () => import('../views/Panel-control.vue')
-=======
-    name: 'controlpanel',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Panel-control.vue')
   },
   {
     path: '/comparte',
@@ -85,11 +78,7 @@ const routes = [
   {
     path: '/beneficiarios',
     name: 'beneficiarios',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Beneficiarios.vue')
->>>>>>> cf6e4332ec1928e0a36e39bbebcc6aede8538ce6
+    component: () => import('../views/Beneficiarios.vue')
   }
 
 
