@@ -20,7 +20,7 @@
         <mdb-nav-item href="recarga" class="asimple"><img src="images/iconoMenu2.png" class="icono d-flex justify-content-center" alt="">
           <span span class="">Registrarse</span>
         </mdb-nav-item>
-        <mdb-nav-item :to="{name:'#'}" class="asimple"><img src="images/iconoMenu3.png" class="icono" alt=""><span>Iniciar Sesion</span></mdb-nav-item>
+        <mdb-nav-item :to="{name:'Login'}" class="asimple"><img src="images/iconoMenu3.png" class="icono" alt=""><span>Iniciar Sesion</span></mdb-nav-item>
         <!--anadido comentario anadimos mas-->
       </div>
 

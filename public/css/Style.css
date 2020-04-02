@@ -321,26 +321,6 @@ background-attachment: cover;
 }
 
 /*fin 5 elementos*/
-#step2 textarea{
-    margin-top:-20px;
-}
-#step3 h6  {
-color:#FFBD24;
-text-align: left;
-font-size: 1.3vw;
-}
-#step3 h1{
-    text-align: left;
-    color: white;
-    font-size: 3.5vw;
-}
-#step3 h4{
-    text-align: left;
-    color: white;
-    opacity: 0.8;
-    font-size: 2vw;
-}
-
     .bg_slider {
         background: transparent url(../images/bg_slider_main.gif);
     /* Half height */
