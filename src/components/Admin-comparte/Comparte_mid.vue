@@ -11,9 +11,9 @@
                 </mdb-col>
               </mdb-row>
             </div>
-            <mdb-row class="mt-xl-0 mt-5">
+            <mdb-row class="mt-xl-0 mt-5 share">
                 <mdb-col xl="6" offsetXl="3"> 
-               <mdb-input basic class="mb-3 " placeholder="Recipient's username" ariaDescribedBy="button-addon2" v-model="link">
+               <mdb-input basic class="mb-3 shareI" placeholder="Recipient's username" ariaDescribedBy="button-addon2" v-model="link">
                  <select class="browser-default custom-select" group slot="append" id="button-addon2">
                     <option selected>Compartir</option>
                     <option value="1">One</option>
@@ -56,7 +56,7 @@
                     </div>
              </mdb-col>
             </mdb-row>
-            <mdb-row class="bottomC h-50 mt-5 d-xl-block d-none">
+            <mdb-row class="bottomC h-50 mt-5 d-xl-flex d-none">
                 <mdb-col xl="7">
                     <img class="pareja" src="images/pareja.png" alt="">
                 </mdb-col>

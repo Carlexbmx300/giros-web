@@ -1244,10 +1244,10 @@ overflow: hidden;
     width: 15px !important;
     height: 40px !important;
  }
-.pan input, select{
+.shareI{
     height: 50px !important;
 }
-.pan select {
+.share select {
     width: 120px;
     font-size: 15px;
     border-top-right-radius: 20px;
@@ -1255,15 +1255,17 @@ overflow: hidden;
     background-color: #2468FF;
     color: #ffffff;
     border: solid 1px #2468FF;
+    height: 50px;
    
 }
 
-.pan input{
+.share input{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: solid 1px #2468FF;
     font-size: 15px;
     color: #2468FF;
+    height: 50px;
 }
 
 .table th{
