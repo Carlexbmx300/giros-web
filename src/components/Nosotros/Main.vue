@@ -8,7 +8,7 @@
       <div>
         <h1 class="c_yellow text-left">NUESTRA EMPRESA</h1>
         <h3 class="white-text text-left">CONOCE LA SOLIDEZ DE NUESTRA COMPAÑIA</h3>
-        <h5 class="c_skyblue text-left">Respaldo, experiencia y solidez; somos la solución <br/> eficiente para sus giros y recargas</h5>
+        <h5 class="c_skyblue text-left w-responsive">Respaldo, experiencia y solidez; somos la solución eficiente para sus giros y recargas</h5>
       </div>
     </mdb-col>
   </mdb-row>

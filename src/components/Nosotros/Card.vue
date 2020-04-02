@@ -37,7 +37,7 @@
 
 </template>
 <script>
-	import { mdbCard,mdbContainer, mdbRow, mdbCol, mdbCardImage, mdbCardBody, mdbCardTitle, mdbCardText, mdbBtn } from 'mdbvue';
+	import { mdbCard,mdbContainer, mdbRow, mdbCol, mdbCardImage, mdbCardBody, mdbCardTitle, mdbCardText } from 'mdbvue';
 	export default {
 		name: 'CardPage',
 		components: {
@@ -48,8 +48,7 @@
 			mdbCardImage,
 			mdbCardBody,
 			mdbCardTitle,
-			mdbCardText,
-			mdbBtn
+			mdbCardText
 		}
 	}
 </script>

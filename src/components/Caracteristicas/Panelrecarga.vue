@@ -1,18 +1,16 @@
 <template>
-<mdb-container class="bg_lineas" fluid>
+<mdb-container class="bg_bluesky bg_bluesky_image padmid5" fluid>
   <mdb-container>
-    <mdb-row>
-      <mdb-col xl="12">
-        <h3 class='c_blue h3padding'>¿Porque escoger giros Express?</h3>
-        <p class="text-center">Transferencias internacionales, giros y remesas rápidas, transparentes y  hasta 8 veces más <br/> económicas que la competencia, en un servicio <span class="font-weight-bold">24/7</span> </p>
-        <p></p>
-      </mdb-col>
+      <mdb-row class="justify-content-center">
+      <img class="img-fluid" src="images/capturaCC.jpg" alt="">
     </mdb-row>
-    <mdb-row class="justify-content-center">
-      <img class="img-fluid" src="images/fondoSiluetaPC.png" alt="">
+      <mdb-row>
+      <mdb-col xl="12">
+        <h3 class='c_yellow h3padding'>¿Porque escoger giros Express?</h3>
+        <p class="text-center white-text">Envía dinero a los principales puntos de pago en ventanilla y a los bancos de Colombia, como Éxito y Bancolombia. Haz depósitos bancarios a todos los bancos, incluidos Bancolombia y DAVIVIENDA.</p>
+        </mdb-col>
     </mdb-row>
   </mdb-container>
-
 </mdb-container>
 </template>
 <script>
