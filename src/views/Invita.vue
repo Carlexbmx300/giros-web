@@ -14,7 +14,6 @@
     </div>
 </template>
 <script>
-// @ is an alias to /src
 import Header from '@/components/Partial/Header.vue'
 import Main from '@/components/Invita/Main.vue'
 import Gana from '@/components/Invita/Gana.vue'

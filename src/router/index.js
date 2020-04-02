@@ -12,52 +12,59 @@ const routes = [
   },
   {
     path: '/caracteristicas',
-    name: 'caracteristicas',
-    
+    name: 'caracteristicas',    
     component: () => import('../views/Caracteristicas.vue')
   },
   {
     path: '/invita',
-    name: 'invita',
-    
+    name: 'invita',    
     component: () => import('../views/Invita.vue')
   },
   {
     path: '/nosotros',
-    name: 'nosotros',
-    
+    name: 'nosotros',    
     component: () => import('../views/Nosotros.vue')
   },
   {
     path: '/preguntas',
-    name: 'preguntas',
-    
+    name: 'preguntas',    
     component: () => import('../views/Preguntas.vue')
   },
 
   {
     path: '/recarga',
-    name: 'recarga',
-    
+    name: 'recarga',    
     component: () => import('../views/Recarga.vue')
   },
   {
     path: '/login',
-    name: 'login',
-    
+    name: 'login',    
     component: () => import('../views/Login.vue')
   },
   {
+    path: '/registro',
+    name: 'registro',    
+    component: () => import('../views/Registro.vue')
+  },
+  {
+    path: '/giro',
+    name: 'giro',    
+    component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/telefono',
+    name: 'telefono',    
+    component: () => import('../views/Home.vue')
+  },
+  {
     path: '/dashboard',
-    name: 'dashboard',
-    
+    name: 'dashboard',    
     component: () => import('../views/Dashboard.vue')
   },
 
   {
     path: '/controlpanel',
-    name: 'controlpanel',
-    
+    name: 'controlpanel',    
     component: () => import('../views/Panel-control.vue')
   }
 
