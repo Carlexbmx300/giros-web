@@ -79,6 +79,11 @@ const routes = [
     path: '/beneficiarios',
     name: 'beneficiarios',
     component: () => import('../views/Beneficiarios.vue')
+  },
+  {
+    path: '/admin-recarga',
+    name: 'admin-recarga',
+    component: () => import('../views/Admin-recarga.vue')
   }
 
 

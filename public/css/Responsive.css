@@ -194,5 +194,11 @@
 }.titulomodal, .modald .titulomodal{
     width: 330px;
 }
-
+.p_azul{
+    width: 20px !important;
+    height: 20px !important;
+}
+.azul {
+    font-size: 10px !important;
+}
 }

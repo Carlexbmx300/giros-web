@@ -21,8 +21,8 @@
     
     <div class="pestanas ">
         <img src="images/IconoD1.png" class="IcoP" alt="" srcset="">
-    <h5>
-            Realizar Recargas
+    <h5><a href="/admin-recarga">Realizar Recargas</a>
+            
             </h5>
        
         
@@ -34,7 +34,7 @@
     
      <div class="pestanas">
               <img src="images/IconoD2.png" class="IcoP" alt="" srcset="">
-         <h5>Giros Internacionales</h5>
+         <h5><a href=""> Giros Internacionales</a></h5>
         <div class="triangle-right"></div>
         <div class="triangle-bottom"></div>
 </div>    

@@ -706,11 +706,15 @@ overflow: hidden;
 }
 
 .pestanas h5{
-    color: #1A3F6B;
+    
     position: absolute;
     top: 20%;
     left: 20%;
 
+}
+
+.pestanas a{
+    color: #1A3F6B;
 }
 .triangle-right {
     width: 0;
@@ -740,11 +744,15 @@ overflow: hidden;
     text-align: left;
     padding: 18px 15px;
     border-bottom: solid #2468FF 1px;
-    color: #1A3F6B;
+    
     font-size: 15px;
 }
 
-.menu-items li:hover{
+.menu-items a{
+    color: #1A3F6B;
+}
+
+.menu-items a:hover{
     cursor: pointer;
     color: #2468FF;
 }
@@ -1311,4 +1319,102 @@ overflow: hidden;
 }
 .con{
     width: 112%;
+}
+.buscador{
+    width: 120%;
+    background-color: #FFBD24;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buscador .input-group{
+    width: 190px;
+}
+.buscador img{
+    width: 17px !important;
+}
+
+.buscador button{
+    width: 70px;
+    height: 31px;
+    background-color: #000000;
+    opacity: .7;
+    border: none;
+    color: #FFBD24;
+    border-radius: 5px;
+}
+.azul{
+    color: #2468FF;
+}
+
+.nro{
+    font-size: 10px;
+}
+.lista_ben{
+    border: #2468FF solid 0.5px;
+    border-radius: 25px;
+}
+.operaciones{
+    background-color: #2468FF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.operaciones img{
+    width: 20px;
+    height: 20px;
+}
+.ojo{
+    width: 30px !important;
+}
+.operaciones p{
+   
+    font-size: 7px;
+    color: #ffffff;
+}
+
+.btnplus{
+    width: 170px !important;
+    height: 35px;
+}
+
+.btnplus i{
+    color: #FFBD24;
+    font-size: 15px;
+}
+.visible{
+    display: none;
+}
+.ocultar{
+    display: none;
+}
+.rd{
+    
+    background-image: url("../images/fondovertical.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+    
+
+}
+.rd h4{
+    color: #FFBD24;
+}
+.ri{
+    position: relative;
+    z-index: 1;
+}
+.ri .triangle-right{
+    border-left: solid 20px #ffffff;
+}
+
+.btn_giro{
+    width: 150px !important;
+    height: 45px !important;
+    transition: all ease .4s;
+}
+
+.btn_giro:hover{
+    transition: all ease .4s;
+    transform: scale(1.1);
 }
