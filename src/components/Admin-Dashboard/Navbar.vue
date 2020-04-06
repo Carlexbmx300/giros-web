@@ -1,7 +1,7 @@
 <template>
 <div class="Navbar">
 
-    <div class="menubar">
+    <div class="menubar mt-3">
         <p  >Menu</p>
         <button   class="menu_bar" @click="salir= !salir">  <mdb-icon   icon="bars" /></button>
 
@@ -34,7 +34,7 @@
     
      <div class="pestanas">
               <img src="images/IconoD2.png" class="IcoP" alt="" srcset="">
-         <h5><a href=""> Giros Internacionales</a></h5>
+         <h5><a href="/admin-giro"> Giros Internacionales</a></h5>
         <div class="triangle-right"></div>
         <div class="triangle-bottom"></div>
 </div>    

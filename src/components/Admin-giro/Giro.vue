@@ -5,11 +5,11 @@
             <mdb-col xl="2" class="ml-xl-5 mt-xl-5">
                 <Nav/>
             </mdb-col>
-            <mdb-col xl="6">
-                <Serv/>
+            <mdb-col xl="6" >
+                <panel/>
              </mdb-col>
              <mdb-col xl="3" >
-                 <Slider class="d-xl-block d-none"/>
+                 <Slider/>
              </mdb-col>
         </mdb-row>
     </mdb-container>
@@ -20,15 +20,15 @@
 </template>
 <script>
 import Nav from '@/components/Admin-Dashboard/Navbar.vue'
-import Serv from '@/components/Admin-Dashboard/Servicios.vue'
-import Slider from '@/components/Admin-Dashboard/Slider.vue'
+import panel from '@/components/Admin-giro/Panel_giro.vue'
+import Slider from '@/components/Admin-giro/Slider4.vue'
  import {mdbContainer, mdbRow, mdbCol, mdbIcon} from 'mdbvue';
 
 export default {
     name: 'dash',
     components:{
         Nav,
-        Serv,
+        panel,
         mdbContainer, 
         mdbRow, 
         mdbCol,

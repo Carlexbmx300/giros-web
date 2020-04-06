@@ -84,7 +84,13 @@ const routes = [
     path: '/admin-recarga',
     name: 'admin-recarga',
     component: () => import('../views/Admin-recarga.vue')
+  },
+  {
+    path: '/admin-giro',
+    name: 'admin-giro',
+    component: () => import('../views/Admin-giro.vue')
   }
+
 
 
 ]

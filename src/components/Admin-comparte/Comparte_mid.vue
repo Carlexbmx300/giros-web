@@ -3,11 +3,11 @@
                <div class="btnpanel con d-xl-none d-flex mt-n5 ml-n3">
               <mdb-row class="ml-1 align-self-center">
                 <mdb-col col="6">
-                  <img class="btnp1" src="images/BPanel1.png" alt="">
+                  <a href="/admin-giro"><img class="btnp1" src="images/BPanel1.png" alt=""></a>
 
                 </mdb-col>
                 <mdb-col col="6">
-                   <img src="images/BPanel2.png" alt="">
+                   <a href="/admin-recarga"><img src="images/BPanel2.png" alt=""></a>
                 </mdb-col>
               </mdb-row>
             </div>

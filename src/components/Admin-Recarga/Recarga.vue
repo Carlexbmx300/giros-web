@@ -8,7 +8,7 @@
             <mdb-col xl="6" >
                 <panel/>
              </mdb-col>
-             <mdb-col xl="3" class="d-xl-block d-none">
+             <mdb-col xl="3" >
                  <Slider/>
              </mdb-col>
         </mdb-row>

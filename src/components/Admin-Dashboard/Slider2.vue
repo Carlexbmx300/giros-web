@@ -3,8 +3,8 @@
     <mdb-container fluid>
         <mdb-row>
             <mdb-col xl="8" class="text-left">
-                <h5 class="mt-5">Bienvenido a su</h5>
-                <h3 class="mt-n2">DASHBOARD</h3>
+                <a href="/dashboard"><h5 class="mt-5">Bienvenido a su</h5>
+                <h3 class="mt-n2">DASHBOARD</h3></a>
             </mdb-col>
             <mdb-col xl="4" class="align-self-end">
                  <img class="logo" src="images/LogoW.png" alt="">

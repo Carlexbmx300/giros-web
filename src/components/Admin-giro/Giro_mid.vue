@@ -1,7 +1,7 @@
 <template>
     
 
-<mdb-container class="servicios-mid pan mt-3 position-relative ">
+<mdb-container class="servicios-mid mt-3  pan position-relative ">
     <mdb-row class="h-100">
        
         <mdb-col xl="7" col="12" class="align-self-center ri">
@@ -10,7 +10,7 @@
                 <img src="images/IconoD1.png" alt="" srcset="">
             </mdb-col>
             <mdb-col col="10">   
-                <h4>RECARGA CELULAR</h4>
+                <h4>ENVIAR GIRO</h4>
             </mdb-col>
         </mdb-row>
             <div class="triangle-right d-xl-block d-none"></div>
@@ -36,25 +36,27 @@
           
             <mdb-row class="mt-5">
                 <mdb-col col="12" class="mt-5 pt-4">
-                    <h4 class="mt-5">Realiza tus giros internacionales</h4>
+                    <h4 class="mt-5">Realiza tu recarga con nosotros</h4>
                 </mdb-col>
             </mdb-row>
             <mdb-row>
                 <mdb-col xl="8" offsetXl='2' class="text-center mt-3">
                      <p class="text-white">
-                         Envia dinero facilmente 
-                         a cualquier lugar
+                         Recargar nunca a sido 
+                        mas fácil, desde tu 
+                        celular o computadora 
+                        personal
                     </p>
                 </mdb-col>
             </mdb-row>
            <mdb-row>
                <mdb-col col="12" class="mt-4 mb-5">
-                    <img class="btn_giro" src="images/btngiroB.png" alt="">
-                    <button class="button_yellow ml-4 mt-4">¡Quiero hacer un Giro!</button>
+                    <img class="btn_giro" src="images/btngrecargaB.png" alt="">
+                    <button class="button_yellow ml-4 mt-4">¡Quiero hacer una RECARGA!</button>
                </mdb-col>
            </mdb-row>
             <mdb-row class="mt-5 pt-1">
-                <mdb-col col='12' class="mt-3">
+                <mdb-col col='12' class="mt-n2">
                       <img class="pareja" src="images/lineasR.png" alt="">
                 </mdb-col>
             </mdb-row>

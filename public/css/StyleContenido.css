@@ -935,7 +935,7 @@ overflow: hidden;
 
 .serv-card{
     width: 240px;
-    height: 100px;
+    height: auto;
     border-radius: 15px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     background-color: #F5F5F5;
@@ -955,17 +955,25 @@ overflow: hidden;
     color: black;
 }
 .btn-rec{
-    width: 180px;
+    width: 130px;
     background-color: #FFBD24;
     border-radius: 15px;
 
 }
-.btn-rec h4{
+.btn-rec a{
     color: #1A3F6B;
-    font-size: 20px;
+    font-size: 15px;
+  
+}
+.btn-rec img{
+    width: 20px !important;
+    height: 30px !important;
 }
 .gir{
-    width: 220px;
+    width: 170px;
+}
+.gir img{
+    width: 30px !important;
 }
 
 .item1{
@@ -1409,12 +1417,48 @@ overflow: hidden;
 }
 
 .btn_giro{
-    width: 150px !important;
+    width: 160px !important;
     height: 45px !important;
     transition: all ease .4s;
 }
 
-.btn_giro:hover{
+.btn_rec{
+    width: 140px !important;
+    height: 45px !important;
+    transition: all ease .4s;
+}
+
+
+.btn_giro:hover, .btn_rec:hover{
     transition: all ease .4s;
     transform: scale(1.1);
+}
+
+.lp{
+    font-size: 8px !important;
+}
+
+.bg-azul{
+    background-color: #2468FF;
+   
+}
+.bg-azul p{
+ color: white;
+}
+
+.cex{
+    background-color: #E2E2E2;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.pex{
+    font-size: 12px;
+}
+.ico_ex{
+    width: 20px !important; 
+    height: 20px !important;
+}
+.rdx{
+    border-radius: 25px !important;
 }

@@ -24,13 +24,3 @@ function main(){
 	});
 
 };*/
-const app = new vue({
-	el='app',
-	data:{
-	
-		open_menu:false,
-		close_menu:true,
-		color: true,
-		blanco: false
-	}
-})
